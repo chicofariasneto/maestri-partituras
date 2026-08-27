@@ -9,7 +9,98 @@
   "name" : "Orchestrator Default",
   "payload" : {
     "connections" : [
-
+      {
+        "createdAt" : "2026-08-27T01:57:10Z",
+        "id" : "564CE242-C3DD-49C5-B1E1-2B9EFB55098D",
+        "ropePoints" : [
+          [
+            11040,
+            8800
+          ],
+          [
+            11072.719691283435,
+            8799.875167262395
+          ],
+          [
+            11105.204853805259,
+            8796.718289734079
+          ],
+          [
+            11137.262645551446,
+            8790.580838391896
+          ],
+          [
+            11168.646439400598,
+            8781.603639133364
+          ],
+          [
+            11199.152510146294,
+            8769.979749087333
+          ],
+          [
+            11228.629167251554,
+            8755.940489918496
+          ],
+          [
+            11256.978652820686,
+            8739.737027706324
+          ],
+          [
+            11284.151593553199,
+            8721.621375370043
+          ],
+          [
+            11310.137172518687,
+            8701.83198738923
+          ],
+          [
+            11334.95292907332,
+            8680.585986156075
+          ],
+          [
+            11358.63613423249,
+            8658.076499439194
+          ],
+          [
+            11381.236967137193,
+            8634.472518227014
+          ],
+          [
+            11402.812944777512,
+            8609.920037511649
+          ],
+          [
+            11423.424496531617,
+            8584.544112286905
+          ],
+          [
+            11443.131759215896,
+            8558.451444004962
+          ],
+          [
+            11461.992460730142,
+            8531.733000168138
+          ],
+          [
+            11480.060636417464,
+            8504.466343910763
+          ],
+          [
+            11497.385998648107,
+            8476.717627454578
+          ],
+          [
+            11514.013962354984,
+            8448.543399088227
+          ],
+          [
+            11530,
+            8420
+          ]
+        ],
+        "terminalIdA" : "1D63FB66-B884-4396-8544-E38D054928CF",
+        "terminalIdB" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444"
+      }
     ],
     "drawings" : [
 
@@ -56,8 +147,8 @@
         "id" : "B9FEECEC-DBE1-48AD-AAE4-22AAB7DFDE89",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-25T16:00:14Z",
-        "zIndex" : 165
+        "lastModifiedAt" : "2026-08-26T21:20:46Z",
+        "zIndex" : 188
       },
       {
         "content" : {
@@ -81,7 +172,7 @@
         "frame" : [
           [
             9080,
-            8180
+            7900
           ],
           [
             800,
@@ -91,8 +182,8 @@
         "id" : "F77D270F-D00D-467F-BA90-9C4D29C73548",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-25T17:21:30Z",
-        "zIndex" : 161
+        "lastModifiedAt" : "2026-08-27T01:57:35Z",
+        "zIndex" : 182
       },
       {
         "content" : {
@@ -115,19 +206,19 @@
         "createdAt" : "2026-08-25T16:00:12Z",
         "frame" : [
           [
-            11120,
-            8500
+            9080,
+            9120
           ],
           [
-            840,
+            800,
             600
           ]
         ],
         "id" : "BE30554C-6D72-45BE-B98F-C59F704EFC81",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-25T16:01:22Z",
-        "zIndex" : 156
+        "lastModifiedAt" : "2026-08-27T01:57:31Z",
+        "zIndex" : 185
       },
       {
         "content" : {
@@ -185,8 +276,8 @@
         "createdAt" : "2026-08-25T17:19:16Z",
         "frame" : [
           [
-            9580,
-            7580
+            9700,
+            7460
           ],
           [
             480,
@@ -196,8 +287,8 @@
         "id" : "84F04A7C-D7F1-4983-8E2F-3C53228DE55F",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-25T17:19:39Z",
-        "zIndex" : 140
+        "lastModifiedAt" : "2026-08-27T02:02:32Z",
+        "zIndex" : 194
       },
       {
         "content" : {
@@ -221,7 +312,7 @@
         "frame" : [
           [
             9080,
-            8800
+            8520
           ],
           [
             800,
@@ -232,7 +323,86 @@
         "isLocked" : false,
         "isRedacted" : false,
         "lastModifiedAt" : "2026-08-25T17:21:33Z",
-        "zIndex" : 163
+        "zIndex" : 183
+      },
+      {
+        "content" : {
+          "terminal" : {
+            "_0" : {
+              "agentType" : "claude_code",
+              "assignedRoleId" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
+              "autoScrollLocked" : false,
+              "color" : "#007AFF",
+              "command" : "claude",
+              "icon" : "seal",
+              "id" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444",
+              "isManager" : false,
+              "isUnloaded" : false,
+              "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "monitorWithOmbro" : true,
+              "name" : "Runner",
+              "scrollbackFile" : "",
+              "scrollbackLineCount" : 0,
+              "shellPath" : "",
+              "shortcutMode" : {
+                "kind" : "automatic"
+              },
+              "status" : "restored",
+              "workingDirectory" : ""
+            }
+          }
+        },
+        "createdAt" : "2026-08-27T01:56:42Z",
+        "frame" : [
+          [
+            11080,
+            7820
+          ],
+          [
+            900,
+            600
+          ]
+        ],
+        "id" : "4CC4E149-A742-478E-A58F-64DBB08DA884",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-08-27T01:56:42Z",
+        "zIndex" : 193
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "charcoal",
+              "fileName" : "RUNTIME.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-08-27T01:58:08Z",
+        "frame" : [
+          [
+            11120,
+            8500
+          ],
+          [
+            860,
+            600
+          ]
+        ],
+        "id" : "0D7FB1D1-4B54-4985-96D2-A4584D85811E",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-08-27T01:58:08Z",
+        "zIndex" : 190
       }
     ],
     "noteConnections" : [
@@ -246,84 +416,84 @@
             8800
           ],
           [
-            9962.525501061906,
-            8797.653273582557
+            9967.020716828918,
+            8760.548978182504
           ],
           [
-            9948.186841528619,
-            8787.408187655985
+            9955.756611740908,
+            8726.273890126833
           ],
           [
-            9937.419365093288,
-            8773.448761225762
+            9944.504862553638,
+            8691.988390083909
           ],
           [
-            9929.131385813542,
-            8757.880622258444
+            9933.266115798127,
+            8657.69154964677
           ],
           [
-            9922.487789545574,
-            8741.534988988928
+            9922.040521116627,
+            8623.383297419572
           ],
           [
-            9916.975872383815,
-            8724.76597331021
+            9910.828354237652,
+            8589.064313568988
           ],
           [
-            9912.278906707288,
-            8707.742843685746
+            9899.629023645464,
+            8554.736253769033
           ],
           [
-            9908.192649123479,
-            8690.55503523371
+            9886.724371052349,
+            8520.828571546454
           ],
           [
-            9904.579346730121,
-            8673.253768429033
+            9856.459000966393,
+            8503.13840972916
           ],
           [
-            9901.342322410648,
-            8655.870351337635
+            9822.489665267973,
+            8500.602787369016
           ],
           [
-            9898.411390512041,
-            8638.424997587996
+            9788.25019529614,
+            8500.115683134874
           ],
           [
-            9895.734085883045,
-            8620.93117534325
+            9754.000626626666,
+            8500.022894070878
           ],
           [
-            9893.270211361814,
-            8603.398030453767
+            9719.750608716555,
+            8500.005223896918
           ],
           [
-            9890.988344748674,
-            8585.83204860844
+            9685.50053675909,
+            8500.001859040694
           ],
           [
-            9888.863515515877,
-            8568.238279280029
+            9651.250448425486,
+            8500.00121795182
           ],
           [
-            9886.875593814388,
-            8550.621137047645
+            9617.000356232897,
+            8500.001092444516
           ],
           [
-            9885.008133531022,
-            8532.984799778895
+            9582.75026511225,
+            8500.0010452766
           ],
           [
-            9883.247523191869,
-            8515.333301685556
+            9548.500176044869,
+            8500.000929337899
           ],
           [
-            9881.582325941674,
-            8497.670460019299
+            9514.250088017709,
+            8500.000594339017
           ],
           [
-            9880,
-            8480
+            9480,
+            8500
           ]
         ],
         "terminalId" : "1D63FB66-B884-4396-8544-E38D054928CF"
@@ -334,88 +504,88 @@
         "noteNodeId" : "BE30554C-6D72-45BE-B98F-C59F704EFC81",
         "ropePoints" : [
           [
-            11040,
+            9980,
             8800
           ],
           [
-            11043.644913376256,
-            8802.537145417304
+            9968.802181486668,
+            8837.918440062655
           ],
           [
-            11047.300874833169,
-            8804.832810122516
+            9958.778956017975,
+            8871.812290913109
           ],
           [
-            11051.075862943,
-            8806.921620334424
+            9948.741401592857,
+            8905.69581353665
           ],
           [
-            11054.965302256325,
-            8808.782793589293
+            9938.689165396316,
+            8939.56806768417
           ],
           [
-            11058.961138852987,
-            8810.396774252056
+            9928.622300120333,
+            8973.42851268408
           ],
           [
-            11063.052122039477,
-            8811.745253151837
+            9918.540623079016,
+            9007.276998795513
           ],
           [
-            11067.22385863587,
-            8812.81191838935
+            9908.443582943812,
+            9041.113863359553
           ],
           [
-            11071.459090353375,
-            8813.583184756317
+            9898.330687629546,
+            9074.940056986421
           ],
           [
-            11075.738184456679,
-            8814.048825609801
+            9879.281585196193,
+            9105.861423909391
           ],
           [
-            11080.039797327478,
-            8814.20246447223
+            9842.473966392607,
+            9117.640254779397
           ],
           [
-            11084.341660652917,
-            8814.041898798057
+            9806.347438792456,
+            9119.452241146802
           ],
           [
-            11088.621572082557,
-            8813.569212596034
+            9770.092757700495,
+            9119.8799745756
           ],
           [
-            11092.858317230499,
-            8812.790640649668
+            9733.831340078124,
+            9120.008140556882
           ],
           [
-            11097.032360909006,
-            8811.716258082126
+            9697.569813299817,
+            9120.167899075837
           ],
           [
-            11101.126353962556,
-            8810.359564266237
+            9661.308163755957,
+            9120.27288692676
           ],
           [
-            11105.125544391713,
-            8808.736959865424
+            9625.046437830859,
+            9120.322328973156
           ],
           [
-            11109.018105692838,
-            8806.867088292873
+            9588.784699105046,
+            9120.316147593256
           ],
           [
-            11112.795324995253,
-            8804.770048100803
+            9552.523018260163,
+            9120.25467290703
           ],
           [
-            11116.452125806327,
-            8802.467403674485
+            9516.261455878568,
+            9120.142808235849
           ],
           [
-            11120,
-            8800
+            9480,
+            9120
           ]
         ],
         "terminalId" : "1D63FB66-B884-4396-8544-E38D054928CF"
@@ -522,95 +692,371 @@
             8800
           ],
           [
-            9978.629796125211,
-            8816.299509074845
+            9975.664015416529,
+            8803.434928351042
           ],
           [
-            9977.177411032073,
-            8832.458531615992
+            9971.28976590693,
+            8806.601327394901
           ],
           [
-            9975.608532025777,
-            8848.60086456831
+            9966.7646723583,
+            8809.542659368191
           ],
           [
-            9973.902916464996,
-            8864.72293776071
+            9962.090983600385,
+            8812.23562370639
           ],
           [
-            9972.039836435131,
-            8880.820822425907
+            9957.27468955016,
+            8814.657981309758
           ],
           [
-            9969.992634058266,
-            8896.889370513183
+            9952.325234426444,
+            8816.788566548645
           ],
           [
-            9967.721636947692,
-            8912.920760534837
+            9947.25542969624,
+            8818.607760118543
           ],
           [
-            9965.173352363841,
-            8928.903328353106
+            9942.081224329168,
+            8820.097874975017
           ],
           [
-            9962.286653348292,
-            8944.82117673404
+            9936.821388590646,
+            8821.243484378247
           ],
           [
-            9959.00129326317,
-            8960.654514533073
+            9931.49714800984,
+            8822.031738533675
           ],
           [
-            9955.274613634147,
-            8976.382852552964
+            9926.131771973553,
+            8822.45269886945
           ],
           [
-            9951.108057033029,
-            8991.993473872511
+            9920.749981730967,
+            8822.499695789866
           ],
           [
-            9946.540570318177,
-            9007.484549795794
+            9915.377332262671,
+            8822.169677676395
           ],
           [
-            9941.537416295763,
-            9022.833446251316
+            9910.039625520023,
+            8821.463608022019
           ],
           [
-            9935.805692611371,
-            9037.91847393427
+            9904.762232449819,
+            8820.386938674737
           ],
           [
-            9928.783473554771,
-            9052.441068624545
+            9899.569191597155,
+            8818.950043860717
           ],
           [
-            9919.959128792585,
-            9065.938524003199
+            9894.482100554957,
+            8817.168378380087
           ],
           [
-            9909.132317885016,
-            9077.883963363327
+            9889.518996791716,
+            8815.062127438508
           ],
           [
-            9895.839012921091,
-            9087.000716687908
+            9884.693148637667,
+            8812.656004502367
           ],
           [
             9880,
-            9090
+            8810
           ]
         ],
         "terminalId" : "1D63FB66-B884-4396-8544-E38D054928CF"
+      },
+      {
+        "createdAt" : "2026-08-27T01:58:33Z",
+        "id" : "82E16656-E28E-4590-ADF9-2259408A5107",
+        "noteNodeId" : "0D7FB1D1-4B54-4985-96D2-A4584D85811E",
+        "ropePoints" : [
+          [
+            11040,
+            8800
+          ],
+          [
+            11043.704365761288,
+            8802.529283057223
+          ],
+          [
+            11047.380008151105,
+            8804.83469115575
+          ],
+          [
+            11051.154499849275,
+            8806.968181449462
+          ],
+          [
+            11055.027502101628,
+            8808.91008733012
+          ],
+          [
+            11058.997969669254,
+            8810.636376505263
+          ],
+          [
+            11063.063252401946,
+            8812.117686864089
+          ],
+          [
+            11067.217049757313,
+            8813.320599489263
+          ],
+          [
+            11071.447219983165,
+            8814.210781271826
+          ],
+          [
+            11075.734398536355,
+            8814.75775284942
+          ],
+          [
+            11080.052404670836,
+            8814.940278427634
+          ],
+          [
+            11084.370836241957,
+            8814.750726962307
+          ],
+          [
+            11088.659333618374,
+            8814.196738095472
+          ],
+          [
+            11092.891773765494,
+            8813.299478195542
+          ],
+          [
+            11097.04876793021,
+            8812.089258282864
+          ],
+          [
+            11101.11789403388,
+            8810.600157106563
+          ],
+          [
+            11105.092188028044,
+            8808.865283521747
+          ],
+          [
+            11108.967987992097,
+            8806.913755129402
+          ],
+          [
+            11112.743118167447,
+            8804.769625772076
+          ],
+          [
+            11116.416434026347,
+            8802.453184502456
+          ],
+          [
+            11120,
+            8800
+          ]
+        ],
+        "terminalId" : "1D63FB66-B884-4396-8544-E38D054928CF"
+      },
+      {
+        "createdAt" : "2026-08-27T01:59:00Z",
+        "id" : "DFAE1BC0-77A4-40D0-8AE8-1D9B55D506EF",
+        "noteNodeId" : "0D7FB1D1-4B54-4985-96D2-A4584D85811E",
+        "ropePoints" : [
+          [
+            11530,
+            8420
+          ],
+          [
+            11530.356107945729,
+            8424.58544479386
+          ],
+          [
+            11530.714740557753,
+            8429.028233436296
+          ],
+          [
+            11531.086668488968,
+            8433.463835797533
+          ],
+          [
+            11531.47142369241,
+            8437.891587976415
+          ],
+          [
+            11531.870067145654,
+            8442.31091790162
+          ],
+          [
+            11532.285774766788,
+            8446.721205070618
+          ],
+          [
+            11532.723980007924,
+            8451.121675594839
+          ],
+          [
+            11533.192041242202,
+            8455.511334872555
+          ],
+          [
+            11533.698460281488,
+            8459.888943142825
+          ],
+          [
+            11534.251877514116,
+            8464.25303351344
+          ],
+          [
+            11534.860295241357,
+            8468.601945685277
+          ],
+          [
+            11535.531185510843,
+            8472.933808326066
+          ],
+          [
+            11536.273276080723,
+            8477.246214312401
+          ],
+          [
+            11537.100961233158,
+            8481.53519120113
+          ],
+          [
+            11538.042735003837,
+            8485.792699719254
+          ],
+          [
+            11539.156829992706,
+            8490.000423023694
+          ],
+          [
+            11540.564413849914,
+            8494.111164801227
+          ],
+          [
+            11542.539511511692,
+            8497.97320795767
+          ],
+          [
+            11545.754875369565,
+            8500.877022441266
+          ],
+          [
+            11550,
+            8500
+          ]
+        ],
+        "terminalId" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444"
+      },
+      {
+        "createdAt" : "2026-08-27T02:00:36Z",
+        "id" : "4C7E2BD2-6B3C-48A3-AC72-231E78103152",
+        "noteNodeId" : "8B18B6F5-CBC4-484F-A7DE-DCDE1B36D5EA",
+        "ropePoints" : [
+          [
+            11080,
+            8120
+          ],
+          [
+            11074.10205303134,
+            8127.408351230526
+          ],
+          [
+            11068.080586071344,
+            8134.513841308265
+          ],
+          [
+            11061.811033864677,
+            8141.3955323330865
+          ],
+          [
+            11055.274243533615,
+            8148.0174044399555
+          ],
+          [
+            11048.452906734907,
+            8154.338887735215
+          ],
+          [
+            11041.334787037255,
+            8160.317131561304
+          ],
+          [
+            11033.916897031368,
+            8165.911915849127
+          ],
+          [
+            11026.2080874524,
+            8171.091321584051
+          ],
+          [
+            11018.227610408065,
+            8175.834235189694
+          ],
+          [
+            11009.999689799213,
+            8180.126287098547
+          ],
+          [
+            11001.547431536412,
+            8183.950242856109
+          ],
+          [
+            10992.890054913316,
+            8187.276351829425
+          ],
+          [
+            10984.045010532143,
+            8190.057925709637
+          ],
+          [
+            10975.033536696114,
+            8192.2338111696
+          ],
+          [
+            10965.886897791172,
+            8193.737081766922
+          ],
+          [
+            10956.650273433032,
+            8194.508217846487
+          ],
+          [
+            10947.381705222773,
+            8194.508931329528
+          ],
+          [
+            10938.145691579322,
+            8193.731694596972
+          ],
+          [
+            10929.00391284056,
+            8192.201730257852
+          ],
+          [
+            10920,
+            8190
+          ]
+        ],
+        "terminalId" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444"
       }
     ],
     "noteTexts" : {
       "3C4118E2-9DB7-46F1-9074-62F1BFBF239F" : "# Results\nClosed tasks land here with full detail, newest on top.\n---\n",
-      "84F04A7C-D7F1-4983-8E2F-3C53228DE55F" : "# Context: api\nRepo: <path or name>\nStack: <language, framework, db>\nConventions: <naming, folder structure, error handling patterns>\nKnown landmines: <anything fragile or mid-migration right now>",
+      "84F04A7C-D7F1-4983-8E2F-3C53228DE55F" : "# Context: api\nRepo: <path or name>\nStack: <language, framework, db>\nConventions: <naming, folder structure, error handling patterns>\nKnown landmines: <anything fragile or mid-migration right now>\n\n## Run\nStart: <exact command(s), in order>\nHealth check: <endpoint, port, or log line that confirms it's actually up>\nLogs: <command to tail logs>\nEnv\/setup needed: <.env vars, required files>",
       "8B18B6F5-CBC4-484F-A7DE-DCDE1B36D5EA" : "# Context index\nThis project spans multiple domains. Each is detailed in its own chained note.\nWhen dispatching a task, check which domain(s) it touches and pull only that context.\n\n- api    → backend service, repo at <path>\n- web    → frontend, repo at <path>\n- app    → mobile app, repo at <path>\n- infra  → deployment, envs, secrets locations, repo at <path>",
       "BE30554C-6D72-45BE-B98F-C59F704EFC81" : "# Actions for me\n- [ ] ",
-      "F77D270F-D00D-467F-BA90-9C4D29C73548" : "# TODO\n\n- [ ] "
+      "F77D270F-D00D-467F-BA90-9C4D29C73548" : "# TODO\n\n- [x] "
     },
     "noteToNoteConnections" : [
       {
@@ -624,84 +1070,84 @@
             8190
           ],
           [
-            10099.346205872316,
-            8189.700471187737
+            10098.767448599589,
+            8185.710983678626
           ],
           [
-            10078.900430942645,
-            8187.352066092949
+            10079.350060415156,
+            8176.167701412035
           ],
           [
-            10058.784359388883,
-            8182.99647873982
+            10062.30506417383,
+            8162.833397979846
           ],
           [
-            10039.168534987772,
-            8176.754795729249
+            10047.547396644904,
+            8146.996518881312
           ],
           [
-            10020.185658419097,
-            8168.784396019319
+            10034.744251299428,
+            8129.533523179573
           ],
           [
-            10001.927555134838,
-            8159.2618292351935
+            10023.541464029158,
+            8110.995189210335
           ],
           [
-            9984.447850790111,
-            8148.367859371176
+            10013.636697305878,
+            8091.724137153753
           ],
           [
-            9967.768115106788,
-            8136.276381285351
+            10004.789393512134,
+            8071.937372365279
           ],
           [
-            9951.885285391536,
-            8123.147518200471
+            9996.812098229617,
+            8051.776224807701
           ],
           [
-            9936.778827011749,
-            8109.124250821186
+            9989.55890028885,
+            8031.335550337538
           ],
           [
-            9922.416816641153,
-            8094.33158041934
+            9982.915412640996,
+            8010.680916616845
           ],
           [
-            9908.76054979332,
-            8078.877104135519
+            9976.790960155246,
+            7989.858707982358
           ],
           [
-            9895.767981120538,
-            8062.852479144578
+            9971.112808332202,
+            7968.902385154891
           ],
           [
-            9883.396259872363,
-            8046.335440487958
+            9965.82198138892,
+            7947.836699193623
           ],
           [
-            9871.60346695706,
-            8029.391991729028
+            9960.870197281542,
+            7926.6806343661565
           ],
           [
-            9860.34965469246,
-            8012.078429184286
+            9956.217563241957,
+            7905.449389314979
           ],
           [
-            9849.597348858457,
-            7994.443014357227
+            9951.830806049666,
+            7884.155600475749
           ],
           [
-            9839.311698195972,
-            7976.52726977229
+            9947.681901303331,
+            7862.810021602611
           ],
           [
-            9829.460296662652,
-            7958.367042708758
+            9943.746963788075,
+            7841.421878827549
           ],
           [
-            9820,
-            7940
+            9940,
+            7820
           ]
         ]
       }
@@ -721,9 +1167,17 @@
       "icon" : "brain",
       "id" : "65834C01-59AA-4AD4-A373-C613153F1BD1",
       "name" : "Maestro",
-      "prompt" : "You are the Maestro. You are FORBIDDEN from writing code, editing files, or running\ntests yourself — under any circumstance, no matter how small the task looks. Every\nsingle TODO item, without exception, is done by a recruited agent, never by you directly.\n\nIf you ever catch yourself about to edit a file or run a build\/test command, STOP —\nthat is a violation of your role. Recruit a Builder instead, even for a one-line change.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. TODO items are plain, untagged\nsentences — before dispatching any task, read it and decide for yourself which\ndomain(s) it touches, then read only those context note(s). Include what's relevant\n(repo path, stack, conventions, landmines) directly in the Builder's brief, so it starts\noriented instead of guessing. If a task is ambiguous about domain, check the ones that\nseem plausible rather than guessing blind — reading an extra note costs little.\n\n## Your loop\n1. Read the TODO note. It is a QUEUE ONLY — pending and in-progress items, nothing else.\n2. Pick the first item that isn't marked IN PROGRESS.\n3. Mark it `[~] IN PROGRESS` in TODO before dispatching (so nothing gets lost if a\n   recruit terminal dies mid-task). Do not remove it from TODO yet.\n4. Judge its size:\n   - SIMPLE (one file, one clear change, no design decision) → recruit one Builder.\n   - COMPLEX (touches multiple files, more than one reasonable approach, or affects a\n     public interface\/API\/schema) → recruit one Builder AND one Reviewer. The Reviewer\n     only reads and verifies — it never edits files.\n5. RECRUIT NOW. Do not describe the plan — actually use your recruit ability to spawn\n   the Builder before doing anything else with this task. Give it the full task text,\n   the relevant context from step above, and: \"If this task is COMPLEX, write a short\n   doc before you report back.\"\n6. Wait for the Builder's reply. Do not proceed until it replies.\n   - STATUS: DONE, complexity SIMPLE → append the full record to RESULTS (see format\n     below), REMOVE the item from TODO entirely, dismiss the Builder.\n   - STATUS: DONE, complexity COMPLEX → send the Builder's report + doc to the Reviewer\n     with the task's stated goal. Wait for the verdict.\n       - PASS → append to RESULTS, remove from TODO, dismiss both agents.\n       - FAIL → send findings back to the same Builder. Max 2 rounds. Still failing →\n         treat as BLOCKED.\n   - STATUS: BLOCKED → append a BLOCKED record to RESULTS with what's needed and why,\n     revert the TODO item from `[~] IN PROGRESS` back to `[ ]` unchecked (do not remove\n     it), and add a matching line to ACTIONS describing exactly what I need to do.\n     Dismiss the Builder.\n7. Dismiss every recruit once its part is done. Go back to step 2. Continue until TODO\n   has no items left that aren't blocked-and-waiting-on-ACTIONS.\n\n## RESULTS entry format\nPrepend each closed item to the top of RESULTS, right under the header:\n\n---\n### Short title\nstatus: DONE or BLOCKED\ndomain: which context note(s) you used\nclosed: <ISO timestamp>\nsummary: 2 lines max\nchanges: file: what changed, one per line\nverification: command + real result\ndoc: full doc text if COMPLEX, otherwise omit this line\n\n## Self-check before every action\nAsk yourself: \"Am I about to touch a file or run a command myself?\" If yes, stop and\nrecruit instead. This applies even if the task is trivial or recruiting feels slower.\n\n## Rules\n- Never mark an item done without a Builder's real STATUS: DONE reply. No guessing.\n- Never let a Reviewer edit files — verification only.\n- Never remove an item from TODO except on a real DONE (verified) — a BLOCKED item goes\n  back to unchecked in TODO, not removed, so it isn't lost.\n- Never invent new TODO items unless a Builder's report explicitly proposes a follow-up.\n  If it does, add it to the bottom of TODO as a plain sentence, same as any other item.\n- If stuck for a reason not covered here, stop and ask me directly instead of guessing.\n- When TODO has no more actionable items, stop and notify me with a one-line summary of\n  what closed (see RESULTS) and what's waiting in ACTIONS.",
+      "prompt" : "You are the Maestro. You are FORBIDDEN from writing code, editing files, or running\ntests yourself — under any circumstance, no matter how small the task looks. Every\nsingle TODO item, without exception, is done by a recruited agent, never by you directly.\n\nIf you ever catch yourself about to edit a file or run a build\/test command, STOP —\nthat is a violation of your role. Recruit a Builder instead, even for a one-line change.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. TODO items are plain, untagged\nsentences — before dispatching any task, read it and decide for yourself which\ndomain(s) it touches, then read only those context note(s). Include what's relevant\n(repo path, stack, conventions, landmines) directly in the Builder's brief, so it starts\noriented instead of guessing. If a task is ambiguous about domain, check the ones that\nseem plausible rather than guessing blind — reading an extra note costs little.\n\n## Runner coordination\nYou are also connected to a standing Runner terminal, which keeps local services and\ninfra running. Never restart or manage services yourself — always ask Runner.\n\nBefore marking any task DONE, check the RUNTIME note to see if the task touched a\ncurrently-running service (api, mobile, or an infra dependency). If it did:\n1. @-mention Runner directly: tell it what changed and ask it to restart the affected\n   service and re-verify health.\n2. Wait for Runner's reply confirming the service is healthy again.\n3. Only then mark the TODO item DONE — a Builder's own tests passing is not enough if\n   the running service itself is still serving the old version.\n\nIf Runner reports the restart failed for a reason that isn't the task's fault (e.g. an\nunrelated infra issue), treat it as BLOCKED and add it to ACTIONS like any other blocker\n— don't let it silently stall the loop, and don't attempt to fix it yourself.\n\n## Your loop\n1. Read the TODO note. It is a QUEUE ONLY — pending and in-progress items, nothing else.\n2. Pick the first item that isn't marked IN PROGRESS.\n3. Mark it `[~] IN PROGRESS` in TODO before dispatching (so nothing gets lost if a\n   recruit terminal dies mid-task). Do not remove it from TODO yet.\n4. Judge its size:\n   - SIMPLE (one file, one clear change, no design decision) → recruit one Builder.\n   - COMPLEX (touches multiple files, more than one reasonable approach, or affects a\n     public interface\/API\/schema) → recruit one Builder AND one Reviewer. The Reviewer\n     only reads and verifies — it never edits files.\n5. RECRUIT NOW. Do not describe the plan — actually use your recruit ability to spawn\n   the Builder before doing anything else with this task. Give it the full task text,\n   the relevant context from the section above, and: \"If this task is COMPLEX, write a\n   short doc before you report back.\"\n6. Wait for the Builder's reply. Do not proceed until it replies.\n   - STATUS: DONE, complexity SIMPLE → check Runner coordination above, then append\n     the full record to RESULTS (see format below), REMOVE the item from TODO\n     entirely, dismiss the Builder.\n   - STATUS: DONE, complexity COMPLEX → send the Builder's report + doc to the Reviewer\n     with the task's stated goal. Wait for the verdict.\n       - PASS → check Runner coordination above, then append to RESULTS, remove from\n         TODO, dismiss both agents.\n       - FAIL → send findings back to the same Builder. Max 2 rounds. Still failing →\n         treat as BLOCKED.\n   - STATUS: BLOCKED → append a BLOCKED record to RESULTS with what's needed and why,\n     revert the TODO item from `[~] IN PROGRESS` back to `[ ]` unchecked (do not remove\n     it), and add a matching line to ACTIONS describing exactly what I need to do.\n     Dismiss the Builder.\n7. Dismiss every recruit once its part is done. Go back to step 2. Continue until TODO\n   has no items left that aren't blocked-and-waiting-on-ACTIONS.\n\n## RESULTS entry format\nPrepend each closed item to the top of RESULTS, right under the header:\n\n---\n### Short title\nstatus: DONE or BLOCKED\ndomain: which context note(s) you used\nclosed: <ISO timestamp>\nsummary: 2 lines max\nchanges: file: what changed, one per line\nverification: command + real result\ndoc: full doc text if COMPLEX, otherwise omit this line\n\n## Self-check before every action\nAsk yourself: \"Am I about to touch a file or run a command myself?\" If yes, stop and\nrecruit instead. This applies even if the task is trivial or recruiting feels slower.\n\n## Rules\n- Never mark an item done without a Builder's real STATUS: DONE reply. No guessing.\n- Never let a Reviewer edit files — verification only.\n- Never remove an item from TODO except on a real DONE (verified) — a BLOCKED item goes\n  back to unchecked in TODO, not removed, so it isn't lost.\n- Never invent new TODO items unless a Builder's report explicitly proposes a follow-up.\n  If it does, add it to the bottom of TODO as a plain sentence, same as any other item.\n- If stuck for a reason not covered here, stop and ask me directly instead of guessing.\n- When TODO has no more actionable items, stop and notify me with a one-line summary of\n  what closed (see RESULTS) and what's waiting in ACTIONS.",
+      "schemaVersion" : 1
+    },
+    {
+      "color" : "#FF9500",
+      "icon" : "flask",
+      "id" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
+      "name" : "Runner",
+      "prompt" : "You are the Runner. Your job is to bring up, monitor, and restart this project's local\ndevelopment environment — the app services and their infra dependencies (databases,\nmail catchers, queues, etc.) — so the project is testable at all times. You do not\nwrite application code and you do not fix bugs in it. If something is broken because\nof the code itself, your job is to report that precisely, not to patch it.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. Each domain note's \"## Run\" section is\nyour source of truth for how to start it, check it's healthy, and view its logs. Read\nCONTEXT-root and every domain note before doing anything.\n\nIf a domain note has no \"## Run\" section, or the documented command clearly doesn't\nmatch reality (file\/path doesn't exist, command errors immediately), stop and tell me\nexactly what's wrong rather than guessing a replacement command or silently patching\nthe note yourself.\n\n## Bringing the stack up\n1. Start infra first (per the infra context note) and wait until each dependency is\n   actually healthy — use the documented health check, don't assume the start command\n   exiting 0 means it's ready.\n2. Start application services only after their infra dependencies are confirmed healthy.\n3. Verify each service using its documented health check before reporting it as UP.\n\n## Restarting\nWhen asked to restart something (whole stack, or one service):\n- Restart only what was asked — don't tear down and rebuild everything unless asked to.\n- Re-verify health after restart, same as bringing it up fresh.\n- If a service fails to come back up, capture the actual error\/log tail and report it\n  precisely — don't retry silently more than once, and don't \"fix\" the underlying code.\n\n## The RUNTIME note\nYou maintain a note called RUNTIME as the single source of truth for current state.\nKeep it current, overwrite stale entries rather than appending forever:\n\n# Runtime status\nlast updated: <ISO timestamp>\n\n## Infra\n- postgres: UP | DOWN — port 5432 — <note>\n- mail (mailhog\/mailpit): UP | DOWN — port <x> — UI at <url>\n\n## Services\n- api: UP | DOWN — port <x> — health: <endpoint + result>\n- mobile: UP | DOWN — <how it's being run, e.g. metro\/simulator>\n\n## Known issues\n- <anything currently broken and why, if applicable>\n\n## Rules\n- Never modify application source code. If a service won't start because of a real\n  code problem (not a config\/env issue), report it — don't attempt a fix.\n- Never edit a CONTEXT note's \"## Run\" section yourself, even if you figure out the\n  right command — tell me what's wrong\/outdated and let me fix the source of truth.\n- Never assume something is healthy without checking it against the documented health\n  check yourself.\n- Never silently retry more than once — if the second attempt fails, stop and report.\n- Keep RUNTIME accurate at all times — a stale RUNTIME note is worse than none.",
       "schemaVersion" : 1
     }
   ],
-  "updatedAt" : "2026-08-25T17:29:55Z"
+  "updatedAt" : "2026-08-27T02:03:16Z"
 }
