@@ -1,0 +1,1420 @@
+{
+  "appVersion" : "0.44.3",
+  "color" : "#FF3B30",
+  "createdAt" : "2026-09-01T00:13:06Z",
+  "description" : "",
+  "formatVersion" : 1,
+  "icon" : "book",
+  "id" : "529A52BE-51F9-4049-B289-811CFAC7434D",
+  "name" : "Orchestrator With Product Design Default",
+  "payload" : {
+    "connections" : [
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "369B0EF6-B3C5-41FA-AB8D-F12B3C5EBD93",
+        "ropePoints" : [
+          [
+            11149.890625,
+            10208.46484375
+          ],
+          [
+            11158.218979704961,
+            10171.171935561259
+          ],
+          [
+            11165.91556793805,
+            10136.629318188814
+          ],
+          [
+            11173.59325654176,
+            10102.076421926833
+          ],
+          [
+            11181.251807616653,
+            10067.512415047351
+          ],
+          [
+            11188.89139383426,
+            10032.93682334207
+          ],
+          [
+            11196.512143367743,
+            9998.34955111294
+          ],
+          [
+            11204.114075195079,
+            9963.750958994695
+          ],
+          [
+            11211.697080046899,
+            9929.141859508634
+          ],
+          [
+            11232.408755386059,
+            9898.998498127377
+          ],
+          [
+            11271.253909823005,
+            9889.487079628616
+          ],
+          [
+            11308.154563521637,
+            9884.254845644466
+          ],
+          [
+            11345.04806360049,
+            9878.288190078605
+          ],
+          [
+            11381.933395225387,
+            9872.262869127379
+          ],
+          [
+            11418.810386944968,
+            9866.178285648872
+          ],
+          [
+            11455.678928076186,
+            9860.034505001986
+          ],
+          [
+            11492.53881433638,
+            9853.83160575606
+          ],
+          [
+            11529.389724392924,
+            9847.569599009546
+          ],
+          [
+            11566.231309698918,
+            9841.248813057931
+          ],
+          [
+            11603.063928761047,
+            9834.87389857515
+          ],
+          [
+            11639.890625,
+            9828.46484375
+          ]
+        ],
+        "terminalIdA" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A",
+        "terminalIdB" : "1CF7C508-2E53-4F05-96F4-C745BF819136"
+      }
+    ],
+    "drawings" : [
+
+    ],
+    "nodes" : [
+      {
+        "content" : {
+          "terminal" : {
+            "_0" : {
+              "agentType" : "claude_code",
+              "assignedRoleId" : "65834C01-59AA-4AD4-A373-C613153F1BD1",
+              "autoScrollLocked" : false,
+              "color" : "#007AFF",
+              "command" : "claude",
+              "icon" : "seal",
+              "id" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A",
+              "isManager" : true,
+              "isUnloaded" : false,
+              "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "monitorWithOmbro" : true,
+              "name" : "Maestro",
+              "scrollbackFile" : "",
+              "scrollbackLineCount" : 0,
+              "shellPath" : "",
+              "shortcutMode" : {
+                "kind" : "automatic"
+              },
+              "status" : "restored",
+              "workingDirectory" : ""
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            10089.890625,
+            9908.46484375
+          ],
+          [
+            1060,
+            600
+          ]
+        ],
+        "id" : "A8A2D98A-F059-4578-A8F9-5FF2EB670B7D",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 1
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "blue",
+              "fileName" : "TODO.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            9189.890625,
+            9308.46484375
+          ],
+          [
+            800,
+            600
+          ]
+        ],
+        "id" : "F91A7CD3-50D8-4F58-8B66-96F98F4219AC",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 2
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "yellow",
+              "fileName" : "ACTIONS.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            9189.890625,
+            10528.46484375
+          ],
+          [
+            800,
+            600
+          ]
+        ],
+        "id" : "F240331A-0E83-4786-8835-46A693EDA154",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 3
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "purple",
+              "fileName" : "CONTEXT-root.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            10229.890625,
+            9408.46484375
+          ],
+          [
+            800,
+            380
+          ]
+        ],
+        "id" : "866B4585-3905-4EB4-AA4D-6BC11111E3AF",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 4
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "white",
+              "fileName" : "CONTEXT-api.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            10000,
+            8920
+          ],
+          [
+            480,
+            360
+          ]
+        ],
+        "id" : "1BC9B8C3-94AC-44A9-AF84-7C2B6C0E85FF",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 15
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "green",
+              "fileName" : "RESULTS.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            9189.890625,
+            9928.46484375
+          ],
+          [
+            800,
+            580
+          ]
+        ],
+        "id" : "93B8F526-DBA2-4379-AC2F-7459F8E5B7A1",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 6
+      },
+      {
+        "content" : {
+          "terminal" : {
+            "_0" : {
+              "agentType" : "claude_code",
+              "assignedRoleId" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
+              "autoScrollLocked" : false,
+              "color" : "#007AFF",
+              "command" : "claude",
+              "icon" : "seal",
+              "id" : "1CF7C508-2E53-4F05-96F4-C745BF819136",
+              "isManager" : false,
+              "isUnloaded" : false,
+              "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "monitorWithOmbro" : true,
+              "name" : "Runner",
+              "scrollbackFile" : "",
+              "scrollbackLineCount" : 0,
+              "shellPath" : "",
+              "shortcutMode" : {
+                "kind" : "automatic"
+              },
+              "status" : "restored",
+              "workingDirectory" : ""
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            11189.890625,
+            9228.46484375
+          ],
+          [
+            900,
+            600
+          ]
+        ],
+        "id" : "CE1D56A1-5FAF-4782-BA24-73AE7C57EB82",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 7
+      },
+      {
+        "content" : {
+          "stickyNote" : {
+            "_0" : {
+              "color" : "charcoal",
+              "fileName" : "RUNTIME.md",
+              "fontSize" : 14,
+              "hasCustomName" : true,
+              "isContentLocked" : false,
+              "isPreviewing" : true,
+              "storageMode" : {
+                "managed" : {
+
+                }
+              }
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "frame" : [
+          [
+            11229.890625,
+            9908.46484375
+          ],
+          [
+            860,
+            600
+          ]
+        ],
+        "id" : "AB80C55C-3982-4587-A071-3BF9AA0E50C3",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:37Z",
+        "zIndex" : 8
+      },
+      {
+        "content" : {
+          "terminal" : {
+            "_0" : {
+              "agentType" : "claude_code",
+              "assignedRoleId" : "C735F28F-9B62-4ACA-BC5A-610213F169EA",
+              "autoScrollLocked" : false,
+              "color" : "#007AFF",
+              "command" : "claude",
+              "icon" : "seal",
+              "id" : "D66B597B-08D1-4364-A1E6-A878D3AE1972",
+              "isManager" : true,
+              "isUnloaded" : false,
+              "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "localTmux" : false,
+              "monitorWithOmbro" : true,
+              "name" : "Maestro Design",
+              "scrollbackFile" : "",
+              "scrollbackLineCount" : 0,
+              "shellPath" : "",
+              "shortcutMode" : {
+                "kind" : "automatic"
+              },
+              "status" : "restored",
+              "workingDirectory" : ""
+            }
+          }
+        },
+        "createdAt" : "2026-09-01T00:11:46Z",
+        "frame" : [
+          [
+            10220,
+            8240
+          ],
+          [
+            800,
+            460
+          ]
+        ],
+        "id" : "26156BA0-5CF6-41D1-A590-1DFB4E84575D",
+        "isLocked" : false,
+        "isRedacted" : false,
+        "lastModifiedAt" : "2026-09-01T00:11:46Z",
+        "zIndex" : 16
+      }
+    ],
+    "noteConnections" : [
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "613B8413-4EED-4536-BD63-434C66C4F29D",
+        "noteNodeId" : "F91A7CD3-50D8-4F58-8B66-96F98F4219AC",
+        "ropePoints" : [
+          [
+            10089.890625,
+            10208.46484375
+          ],
+          [
+            10078.75434989736,
+            10173.215184314036
+          ],
+          [
+            10068.591916796995,
+            10140.982920065073
+          ],
+          [
+            10058.4507465054,
+            10108.737896672501
+          ],
+          [
+            10048.331262222655,
+            10076.47920123084
+          ],
+          [
+            10038.23328076915,
+            10044.20635718225
+          ],
+          [
+            10028.156663517253,
+            10011.919266204717
+          ],
+          [
+            10018.101443965843,
+            9979.61830315506
+          ],
+          [
+            10008.067684943613,
+            9947.304392125832
+          ],
+          [
+            9987.050635820973,
+            9919.196572706673
+          ],
+          [
+            9949.239734764593,
+            9910.286144374379
+          ],
+          [
+            9913.376584435713,
+            9908.905151417666
+          ],
+          [
+            9877.43801610734,
+            9908.571717708794
+          ],
+          [
+            9841.494923108175,
+            9908.491395033663
+          ],
+          [
+            9805.551502742963,
+            9908.472048697135
+          ],
+          [
+            9769.608034970204,
+            9908.467388064706
+          ],
+          [
+            9733.664554496203,
+            9908.46625724746
+          ],
+          [
+            9697.721071557908,
+            9908.465943551928
+          ],
+          [
+            9661.777589177462,
+            9908.465728467761
+          ],
+          [
+            9625.834107086079,
+            9908.465366217732
+          ],
+          [
+            9589.890625,
+            9908.46484375
+          ]
+        ],
+        "terminalId" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "ECADE553-DEE3-43A1-BC5E-0AF8247993C1",
+        "noteNodeId" : "F240331A-0E83-4786-8835-46A693EDA154",
+        "ropePoints" : [
+          [
+            10089.890625,
+            10208.46484375
+          ],
+          [
+            10076.900661637146,
+            10251.230146050466
+          ],
+          [
+            10065.870052319267,
+            10287.513926027268
+          ],
+          [
+            10054.830082019476,
+            10323.788462891938
+          ],
+          [
+            10043.780082632935,
+            10360.052855798922
+          ],
+          [
+            10032.719792908174,
+            10396.307081949462
+          ],
+          [
+            10021.648875348466,
+            10432.551936554566
+          ],
+          [
+            10010.567763143528,
+            10468.78915968025
+          ],
+          [
+            9999.480150816524,
+            10505.021901645387
+          ],
+          [
+            9970.761923934155,
+            10524.812924280352
+          ],
+          [
+            9936.482099198724,
+            10527.792101155683
+          ],
+          [
+            9901.834406596869,
+            10528.361639959598
+          ],
+          [
+            9867.174745811757,
+            10528.610547389686
+          ],
+          [
+            9832.514633869136,
+            10528.85872960811
+          ],
+          [
+            9797.854114696853,
+            10529.029922892529
+          ],
+          [
+            9763.193322666566,
+            10529.123584145758
+          ],
+          [
+            9728.53241099452,
+            10529.139753527537
+          ],
+          [
+            9693.871542349678,
+            10529.078403589818
+          ],
+          [
+            9659.21088443323,
+            10528.93962342596
+          ],
+          [
+            9624.55058473387,
+            10528.727349974733
+          ],
+          [
+            9589.890625,
+            10528.46484375
+          ]
+        ],
+        "terminalId" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "9A5F4EB2-ADF2-4BAA-991A-E31A6FFB899D",
+        "noteNodeId" : "866B4585-3905-4EB4-AA4D-6BC11111E3AF",
+        "ropePoints" : [
+          [
+            10619.890625,
+            9908.46484375
+          ],
+          [
+            10626.016100912098,
+            9910.023646284926
+          ],
+          [
+            10627.104376678511,
+            9903.780615329013
+          ],
+          [
+            10627.634614285362,
+            9897.45781851359
+          ],
+          [
+            10627.981566163957,
+            9891.114519359728
+          ],
+          [
+            10628.239949503153,
+            9884.759196537774
+          ],
+          [
+            10628.447043636776,
+            9878.394194022885
+          ],
+          [
+            10628.621003289674,
+            9872.020390563326
+          ],
+          [
+            10628.771888179688,
+            9865.638178287209
+          ],
+          [
+            10628.905825664122,
+            9859.247761672998
+          ],
+          [
+            10629.026849121628,
+            9852.84928701732
+          ],
+          [
+            10629.13778228259,
+            9846.44292440615
+          ],
+          [
+            10629.24068622122,
+            9840.02868940809
+          ],
+          [
+            10629.337089365014,
+            9833.606374324347
+          ],
+          [
+            10629.428111768084,
+            9827.175767450753
+          ],
+          [
+            10629.514544041262,
+            9820.73700286927
+          ],
+          [
+            10629.596911254224,
+            9814.290810280067
+          ],
+          [
+            10629.675533690768,
+            9807.838552976273
+          ],
+          [
+            10629.750586081202,
+            9801.382078894098
+          ],
+          [
+            10629.822162379596,
+            9794.923478208266
+          ],
+          [
+            10629.890625,
+            9788.46484375
+          ]
+        ],
+        "terminalId" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "1F6F9F46-4E2F-442D-A05B-A5F51D3FBD23",
+        "noteNodeId" : "93B8F526-DBA2-4379-AC2F-7459F8E5B7A1",
+        "ropePoints" : [
+          [
+            10089.890625,
+            10208.46484375
+          ],
+          [
+            10085.543032172422,
+            10211.895922906084
+          ],
+          [
+            10081.164578327729,
+            10215.062160262716
+          ],
+          [
+            10076.6401034202,
+            10218.010399472227
+          ],
+          [
+            10071.971105871075,
+            10220.717804601252
+          ],
+          [
+            10067.162063740985,
+            10223.161302187755
+          ],
+          [
+            10062.220485965561,
+            10225.317504399858
+          ],
+          [
+            10057.157302009713,
+            10227.16340597134
+          ],
+          [
+            10051.987106212686,
+            10228.677280522705
+          ],
+          [
+            10046.728175781034,
+            10229.839716625434
+          ],
+          [
+            10041.402201259045,
+            10230.634707597834
+          ],
+          [
+            10036.033698548239,
+            10231.050675946044
+          ],
+          [
+            10030.649001297941,
+            10231.08128876533
+          ],
+          [
+            10025.275089234496,
+            10230.725896236478
+          ],
+          [
+            10019.938469796376,
+            10229.989566850949
+          ],
+          [
+            10014.66417368464,
+            10228.88276838378
+          ],
+          [
+            10009.47487300815,
+            10227.420742879865
+          ],
+          [
+            10004.390162599284,
+            10225.622625467133
+          ],
+          [
+            9999.426073649944,
+            10223.510384323525
+          ],
+          [
+            9994.594496119651,
+            10221.108456635366
+          ],
+          [
+            9989.890625,
+            10218.46484375
+          ]
+        ],
+        "terminalId" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "DF40BE7C-D78B-420F-A292-F478F4B61B6E",
+        "noteNodeId" : "AB80C55C-3982-4587-A071-3BF9AA0E50C3",
+        "ropePoints" : [
+          [
+            11149.890625,
+            10208.46484375
+          ],
+          [
+            11153.540658476571,
+            10210.999717671559
+          ],
+          [
+            11157.19869171947,
+            10213.294774314014
+          ],
+          [
+            11160.97393323503,
+            10215.38601975033
+          ],
+          [
+            11164.862151383619,
+            10217.252886431808
+          ],
+          [
+            11168.855918345635,
+            10218.875464765017
+          ],
+          [
+            11172.944740324016,
+            10220.23447226827
+          ],
+          [
+            11177.114903053238,
+            10221.31210716967
+          ],
+          [
+            11181.349550782821,
+            10222.093032385616
+          ],
+          [
+            11185.629060421876,
+            10222.565367241348
+          ],
+          [
+            11189.931719299033,
+            10222.72155284592
+          ],
+          [
+            11194.234657952757,
+            10222.55895473579
+          ],
+          [
+            11198.51506883652,
+            10222.080072855162
+          ],
+          [
+            11202.751353916632,
+            10221.292292092188
+          ],
+          [
+            11206.92395765086,
+            10220.207287540547
+          ],
+          [
+            11211.015886492485,
+            10218.840243772802
+          ],
+          [
+            11215.013009051298,
+            10217.208990427176
+          ],
+          [
+            11218.904198008211,
+            10215.333107761477
+          ],
+          [
+            11222.681323834848,
+            10213.233048137423
+          ],
+          [
+            11226.339640376802,
+            10210.930202745554
+          ],
+          [
+            11229.890625,
+            10208.46484375
+          ]
+        ],
+        "terminalId" : "818FD0BC-BE15-4960-B1FB-8D2015E9378A"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "F0037DEE-2063-40BE-829E-4C66C81E95D4",
+        "noteNodeId" : "AB80C55C-3982-4587-A071-3BF9AA0E50C3",
+        "ropePoints" : [
+          [
+            11639.890625,
+            9828.46484375
+          ],
+          [
+            11640.159537711274,
+            9833.056146627723
+          ],
+          [
+            11640.433232243686,
+            9837.504938478023
+          ],
+          [
+            11640.722582303266,
+            9841.946659873465
+          ],
+          [
+            11641.029601388469,
+            9846.380456448227
+          ],
+          [
+            11641.356656789716,
+            9850.80564807177
+          ],
+          [
+            11641.706655983862,
+            9855.22163907192
+          ],
+          [
+            11642.083213290414,
+            9859.627835109313
+          ],
+          [
+            11642.490879689745,
+            9864.02355737218
+          ],
+          [
+            11642.935471537952,
+            9868.407941419664
+          ],
+          [
+            11643.424556419259,
+            9872.77979879462
+          ],
+          [
+            11643.968199862287,
+            9877.137402065622
+          ],
+          [
+            11644.580167985334,
+            9881.47813211437
+          ],
+          [
+            11645.279957988054,
+            9885.79778811264
+          ],
+          [
+            11646.096426402235,
+            9890.089150887383
+          ],
+          [
+            11647.07472892658,
+            9894.338762537092
+          ],
+          [
+            11648.290717620586,
+            9898.518750624424
+          ],
+          [
+            11649.883679663399,
+            9902.562260010442
+          ],
+          [
+            11652.134968500739,
+            9906.27192046497
+          ],
+          [
+            11655.576156040026,
+            9908.90835080675
+          ],
+          [
+            11659.890625,
+            9908.46484375
+          ]
+        ],
+        "terminalId" : "1CF7C508-2E53-4F05-96F4-C745BF819136"
+      },
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "556A1DBF-1D9A-41A0-83C3-54042A9917DA",
+        "noteNodeId" : "866B4585-3905-4EB4-AA4D-6BC11111E3AF",
+        "ropePoints" : [
+          [
+            11189.890625,
+            9528.46484375
+          ],
+          [
+            11183.919055867787,
+            9535.81367088809
+          ],
+          [
+            11177.830458919598,
+            9542.861666294802
+          ],
+          [
+            11171.507090026862,
+            9549.693944982044
+          ],
+          [
+            11164.938570010958,
+            9556.284374646026
+          ],
+          [
+            11158.115416334691,
+            9562.603879529704
+          ],
+          [
+            11151.029282931557,
+            9568.619829752679
+          ],
+          [
+            11143.673700343363,
+            9574.295826370075
+          ],
+          [
+            11136.045027014534,
+            9579.591708329244
+          ],
+          [
+            11128.143587846862,
+            9584.463872173266
+          ],
+          [
+            11119.974934235972,
+            9588.86599866917
+          ],
+          [
+            11111.551104802267,
+            9592.750262122923
+          ],
+          [
+            11102.891658885837,
+            9596.069068991752
+          ],
+          [
+            11094.024341912223,
+            9598.777232044535
+          ],
+          [
+            11084.98521700504,
+            9600.834442474044
+          ],
+          [
+            11075.818072767996,
+            9602.207840575216
+          ],
+          [
+            11066.572991751564,
+            9602.87439117897
+          ],
+          [
+            11057.304127956419,
+            9602.822711433371
+          ],
+          [
+            11048.066928705703,
+            9602.054031194204
+          ],
+          [
+            11038.915104399848,
+            9600.582551483823
+          ],
+          [
+            11029.890625,
+            9598.46484375
+          ]
+        ],
+        "terminalId" : "1CF7C508-2E53-4F05-96F4-C745BF819136"
+      },
+      {
+        "createdAt" : "2026-09-01T00:12:03Z",
+        "id" : "AF8D2B06-29FB-4F17-9393-65BDDA5C2F41",
+        "noteNodeId" : "866B4585-3905-4EB4-AA4D-6BC11111E3AF",
+        "ropePoints" : [
+          [
+            10620,
+            8700
+          ],
+          [
+            10620.523673641868,
+            8737.464928243216
+          ],
+          [
+            10621.075340854359,
+            8774.787133491873
+          ],
+          [
+            10621.662370804743,
+            8812.102718464168
+          ],
+          [
+            10622.29100347676,
+            8849.410886025746
+          ],
+          [
+            10622.969016040099,
+            8886.711015590374
+          ],
+          [
+            10623.706429993841,
+            8924.00257168753
+          ],
+          [
+            10624.51645638525,
+            8961.285009898435
+          ],
+          [
+            10625.416499650662,
+            8998.557676904818
+          ],
+          [
+            10626.430224034792,
+            9035.819665587527
+          ],
+          [
+            10627.591764221641,
+            9073.069550974353
+          ],
+          [
+            10628.94846439572,
+            9110.305034599442
+          ],
+          [
+            10630.55438850054,
+            9147.522795457851
+          ],
+          [
+            10632.454788352206,
+            9184.718882599134
+          ],
+          [
+            10634.685802113703,
+            9221.888807945472
+          ],
+          [
+            10637.336761492494,
+            9259.023337105265
+          ],
+          [
+            10640.698608336425,
+            9296.092437588584
+          ],
+          [
+            10645.382471102575,
+            9333.009940217884
+          ],
+          [
+            10652.71963408369,
+            9369.485063234077
+          ],
+          [
+            10666.806975694832,
+            9403.912978489006
+          ],
+          [
+            10629.890625,
+            9408.46484375
+          ]
+        ],
+        "terminalId" : "D66B597B-08D1-4364-A1E6-A878D3AE1972"
+      },
+      {
+        "createdAt" : "2026-09-01T00:12:05Z",
+        "id" : "4763802F-7FC7-48A8-A981-0B3BA2C76A42",
+        "noteNodeId" : "F91A7CD3-50D8-4F58-8B66-96F98F4219AC",
+        "ropePoints" : [
+          [
+            10220,
+            8470
+          ],
+          [
+            10200.427568508803,
+            8521.754350925337
+          ],
+          [
+            10179.877989369515,
+            8572.977370115113
+          ],
+          [
+            10158.188899257546,
+            8623.722364171423
+          ],
+          [
+            10135.241676127587,
+            8673.90431577549
+          ],
+          [
+            10110.891573857354,
+            8723.41369176844
+          ],
+          [
+            10084.98253118346,
+            8772.118055431885
+          ],
+          [
+            10057.36517088362,
+            8819.866916063076
+          ],
+          [
+            10027.8681851115,
+            8866.470262823772
+          ],
+          [
+            9996.275400357536,
+            8911.67102335128
+          ],
+          [
+            9974.901478626645,
+            8962.506926286544
+          ],
+          [
+            9951.591930975777,
+            9012.472842752702
+          ],
+          [
+            9926.022761082711,
+            9061.313400248871
+          ],
+          [
+            9897.757841206707,
+            9108.637312308912
+          ],
+          [
+            9866.297104643209,
+            9153.892029287616
+          ],
+          [
+            9831.112677214123,
+            9196.308781701337
+          ],
+          [
+            9791.667665047573,
+            9234.787903761146
+          ],
+          [
+            9747.357091588816,
+            9267.539391678698
+          ],
+          [
+            9698.151351885157,
+            9292.329798228993
+          ],
+          [
+            9644.959640213978,
+            9306.692300112494
+          ],
+          [
+            9589.890625,
+            9308.46484375
+          ]
+        ],
+        "terminalId" : "D66B597B-08D1-4364-A1E6-A878D3AE1972"
+      }
+    ],
+    "noteTexts" : {
+      "1BC9B8C3-94AC-44A9-AF84-7C2B6C0E85FF" : "# Context: api\nRepo: <path or name>\nStack: <language, framework, db>\nConventions: <naming, folder structure, error handling patterns>\nKnown landmines: <anything fragile or mid-migration right now>\n\n## Run\nStart: <exact command(s), in order>\nHealth check: <endpoint, port, or log line that confirms it's actually up>\nLogs: <command to tail logs>\nEnv\/setup needed: <.env vars, required files>",
+      "866B4585-3905-4EB4-AA4D-6BC11111E3AF" : "# Context index\nThis project spans multiple domains. Each is detailed in its own chained note.\nWhen dispatching a task, check which domain(s) it touches and pull only that context.\n\n- api    → backend service, repo at <path>\n- web    → frontend, repo at <path>\n- app    → mobile app, repo at <path>\n- infra  → deployment, envs, secrets locations, repo at <path>",
+      "93B8F526-DBA2-4379-AC2F-7459F8E5B7A1" : "# Results\nClosed tasks land here with full detail, newest on top.\n---\n",
+      "F240331A-0E83-4786-8835-46A693EDA154" : "# Actions for me\n- [ ] ",
+      "F91A7CD3-50D8-4F58-8B66-96F98F4219AC" : "# TODO\n\n- [x] "
+    },
+    "noteToNoteConnections" : [
+      {
+        "createdAt" : "2026-09-01T00:11:37Z",
+        "id" : "090A6A12-2050-415F-9500-A61DB484FEF9",
+        "noteNodeIdA" : "866B4585-3905-4EB4-AA4D-6BC11111E3AF",
+        "noteNodeIdB" : "1BC9B8C3-94AC-44A9-AF84-7C2B6C0E85FF",
+        "ropePoints" : [
+          [
+            10229.890625,
+            9598.46484375
+          ],
+          [
+            10246.603569452336,
+            9599.150894321645
+          ],
+          [
+            10246.354930820275,
+            9582.410414890672
+          ],
+          [
+            10244.591171132744,
+            9565.753816079527
+          ],
+          [
+            10243.335921338992,
+            9549.043808904155
+          ],
+          [
+            10242.820553957046,
+            9532.287201672998
+          ],
+          [
+            10242.763623040542,
+            9515.515304291368
+          ],
+          [
+            10242.936007708326,
+            9498.73671681291
+          ],
+          [
+            10243.230626576082,
+            9481.9523261091
+          ],
+          [
+            10243.525309250606,
+            9465.160412871946
+          ],
+          [
+            10243.69554213058,
+            9448.35925698426
+          ],
+          [
+            10243.66955621794,
+            9431.549802189264
+          ],
+          [
+            10243.444438337552,
+            9414.73431124951
+          ],
+          [
+            10243.066739589302,
+            9397.91376209301
+          ],
+          [
+            10242.60104625399,
+            9381.087366089632
+          ],
+          [
+            10242.105197182005,
+            9364.2538727091
+          ],
+          [
+            10241.61880825347,
+            9347.412838131822
+          ],
+          [
+            10241.162713821428,
+            9330.56502058805
+          ],
+          [
+            10240.743472904674,
+            9313.712126601216
+          ],
+          [
+            10240.358547324795,
+            9296.856354249703
+          ],
+          [
+            10240,
+            9280
+          ]
+        ]
+      }
+    ],
+    "portalConnections" : [
+
+    ],
+    "portalToPortalConnections" : [
+
+    ],
+    "sourceWorkingDirectory" : "",
+    "sourceWorkspaceId" : "2E1F7AD1-9C0F-48CD-8719-5D12824752A5"
+  },
+  "roles" : [
+    {
+      "color" : "#AF52DE",
+      "icon" : "brain",
+      "id" : "65834C01-59AA-4AD4-A373-C613153F1BD1",
+      "name" : "Maestro",
+      "prompt" : "You are the Maestro. You are FORBIDDEN from writing code, editing files, or running\ntests yourself — under any circumstance, no matter how small the task looks. Every\nsingle TODO item, without exception, is done by a recruited agent, never by you directly.\n\nIf you ever catch yourself about to edit a file or run a build\/test command, STOP —\nthat is a violation of your role. Recruit a Builder instead, even for a one-line change.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. TODO items are plain, untagged\nsentences — before dispatching any task, read it and decide for yourself which\ndomain(s) it touches, then read only those context note(s). Include what's relevant\n(repo path, stack, conventions, landmines) directly in the Builder's brief, so it starts\noriented instead of guessing. If a task is ambiguous about domain, check the ones that\nseem plausible rather than guessing blind — reading an extra note costs little.\n\n## Starting the loop — Runner check (mandatory, every time)\nBefore dispatching any task, check the RUNTIME note.\n- If it shows every service and infra dependency UP and healthy, do nothing — proceed.\n- If it's missing, stale, or shows anything DOWN, @-mention Runner and ask it to bring\n  the full stack up. Wait for Runner to confirm everything is healthy before dispatching\n  a single task. Never dispatch work against a stack you haven't confirmed is running.\nThis check happens once at the start of a loop run — not before every individual task,\nonly before every individual task if you have reason to think something changed (e.g.\nRunner reported a failure since).\n\n## Runner coordination during the loop\nNever restart, start, or manage services yourself — always ask Runner.\nAfter a Builder reports DONE on a task, decide whether the change requires a local\nrestart, update, or reset (e.g. it changed the api, added a migration, changed an env\nvar, changed a dependency) — the task text and the Builder's CHANGES list tell you this.\nIf it does:\n1. @-mention Runner directly, describe exactly what changed, and tell it what's needed\n   (restart a service, run a new migration, reset something local) — be specific, don't\n   just say \"check it.\"\n2. Wait for Runner's reply confirming it's done and healthy again.\n3. Only then proceed to close the task out (see loop below).\nIf the task didn't touch anything Runner manages (e.g. a pure doc change, a test-only\nchange), skip this — don't ask Runner to do unnecessary work.\nIf Runner reports a failure that isn't the task's own fault (unrelated infra issue),\ntreat the task as BLOCKED and route it to ACTIONS like any other blocker — don't stall\nthe whole loop on it, and don't attempt to fix it yourself.\n\n## Parallelism\nYou may dispatch more than one Builder at once — up to 3 in flight at a time — but only\nwhen their tasks are genuinely independent:\n- they touch different files or clearly different domains (check CONTEXT notes to judge)\n- neither task's outcome depends on the other completing first\n- neither is likely to need the same Runner-managed service restarted at the same time\n  as the other (e.g. don't run two tasks in parallel if both will need the api restarted\n  — serialize those instead, so Runner coordination in the previous section doesn't race)\nIf you're not confident two tasks are independent, run them serially instead — a wrong\nguess here costs you a broken working tree, which is worse than going slower.\nRegardless of how many Builders are in flight, process their replies one at a time as\nthey come in — never update TODO\/RESULTS or talk to Runner from two replies at once.\nCOMPLEX tasks still get a dedicated Reviewer each; a Reviewer never reviews more than\none task's work at a time.\n\n## Your loop\n1. Read the TODO note. It is a QUEUE ONLY — pending and in-progress items, nothing else.\n2. Do the Runner check above if you haven't already this run.\n3. Select up to 3 items that aren't marked IN PROGRESS and are safe to run in parallel\n   per the Parallelism section (or just 1, if nothing else qualifies or only 1 remains).\n4. For each selected item: mark it `[~] IN PROGRESS` in TODO before dispatching, so\n   nothing gets lost if a recruit terminal dies mid-task.\n5. For each selected item, judge its size:\n   - SIMPLE (one file, one clear change, no design decision) → recruit one Builder.\n   - COMPLEX (touches multiple files, more than one reasonable approach, or affects a\n     public interface\/API\/schema) → recruit one Builder AND one dedicated Reviewer.\n6. RECRUIT NOW for every selected item. Do not describe the plan — actually use your\n   recruit ability before doing anything else with these tasks. Give each Builder its\n   full task text, the relevant context, and: \"If this task is COMPLEX, write a short\n   doc before you report back.\"\n7. As each Builder replies (handle one reply at a time, even if others are still in\n   flight):\n   - STATUS: DONE, complexity SIMPLE → run Runner coordination if applicable, then\n     append the full record to RESULTS (see format below), REMOVE the item from TODO\n     entirely, dismiss the Builder.\n   - STATUS: DONE, complexity COMPLEX → send the Builder's report + doc to its\n     dedicated Reviewer with the task's stated goal. Wait for the verdict.\n       - PASS → run Runner coordination if applicable, then append to RESULTS, remove\n         from TODO, dismiss both agents.\n       - FAIL → send findings back to the same Builder. Max 2 rounds. Still failing →\n         treat as BLOCKED.\n   - STATUS: BLOCKED → append a BLOCKED record to RESULTS with what's needed and why,\n     revert the TODO item from `[~] IN PROGRESS` back to `[ ]` unchecked (do not remove\n     it), and add a matching line to ACTIONS describing exactly what I need to do.\n     Dismiss the Builder.\n8. Once all in-flight items from this batch are closed, go back to step 3 and select\n   the next batch. Continue until TODO has no items left that aren't blocked-and-\n   waiting-on-ACTIONS.\n\n## RESULTS entry format\nPrepend each closed item to the top of RESULTS, right under the header:\n\n---\n### Short title\nstatus: DONE or BLOCKED\ndomain: which context note(s) you used\nclosed: <ISO timestamp>\nsummary: 2 lines max\nchanges: file: what changed, one per line\nverification: command + real result\nrunner_action: what you asked Runner to do, if anything, or \"n\/a\"\ndoc: full doc text if COMPLEX, otherwise omit this line\n\n## Self-check before every action\nAsk yourself: \"Am I about to touch a file or run a command myself?\" If yes, stop and\nrecruit instead. This applies even if the task is trivial or recruiting feels slower.\n\n## Rules\n- Never mark an item done without a Builder's real STATUS: DONE reply. No guessing.\n- Never let a Reviewer edit files — verification only.\n- Never remove an item from TODO except on a real DONE (verified) — a BLOCKED item goes\n  back to unchecked in TODO, not removed, so it isn't lost.\n- Never invent new TODO items unless a Builder's report explicitly proposes a follow-up.\n  If it does, add it to the bottom of TODO as a plain sentence, same as any other item.\n- Never dispatch work before Runner has confirmed the stack is healthy.\n- Never restart\/manage services yourself — Runner does that, always.\n- If stuck for a reason not covered here, stop and ask me directly instead of guessing.\n- When TODO has no more actionable items, stop and notify me with a one-line summary of\n  what closed (see RESULTS) and what's waiting in ACTIONS.",
+      "schemaVersion" : 1
+    },
+    {
+      "color" : "#FF9500",
+      "icon" : "flask",
+      "id" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
+      "name" : "Runner",
+      "prompt" : "You are the Runner. Your job is to bring up, monitor, and restart this project's local\ndevelopment environment — the app services and their infra dependencies (databases,\nmail catchers, queues, etc.) — so the project is testable at all times. You do not\nwrite application code and you do not fix bugs in it. If something is broken because\nof the code itself, your job is to report that precisely, not to patch it.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. Each domain note's \"## Run\" section is\nyour source of truth for how to start it, check it's healthy, and view its logs. Read\nCONTEXT-root and every domain note before doing anything.\n\nIf a domain note has no \"## Run\" section, or the documented command clearly doesn't\nmatch reality (file\/path doesn't exist, command errors immediately), stop and tell me\nexactly what's wrong rather than guessing a replacement command or silently patching\nthe note yourself.\n\n## Bringing the stack up\n1. Start infra first (per the infra context note) and wait until each dependency is\n   actually healthy — use the documented health check, don't assume the start command\n   exiting 0 means it's ready.\n2. Start application services only after their infra dependencies are confirmed healthy.\n3. Verify each service using its documented health check before reporting it as UP.\n\n## Restarting\nWhen asked to restart something (whole stack, or one service):\n- Restart only what was asked — don't tear down and rebuild everything unless asked to.\n- Re-verify health after restart, same as bringing it up fresh.\n- If a service fails to come back up, capture the actual error\/log tail and report it\n  precisely — don't retry silently more than once, and don't \"fix\" the underlying code.\n\n## The RUNTIME note\nYou maintain a note called RUNTIME as the single source of truth for current state.\nKeep it current, overwrite stale entries rather than appending forever:\n\n# Runtime status\nlast updated: <ISO timestamp>\n\n## Infra\n- postgres: UP | DOWN — port 5432 — <note>\n- mail (mailhog\/mailpit): UP | DOWN — port <x> — UI at <url>\n\n## Services\n- api: UP | DOWN — port <x> — health: <endpoint + result>\n- mobile: UP | DOWN — <how it's being run, e.g. metro\/simulator>\n\n## Known issues\n- <anything currently broken and why, if applicable>\n\n## Rules\n- Never modify application source code. If a service won't start because of a real\n  code problem (not a config\/env issue), report it — don't attempt a fix.\n- Never edit a CONTEXT note's \"## Run\" section yourself, even if you figure out the\n  right command — tell me what's wrong\/outdated and let me fix the source of truth.\n- Never assume something is healthy without checking it against the documented health\n  check yourself.\n- Never silently retry more than once — if the second attempt fails, stop and report.\n- Keep RUNTIME accurate at all times — a stale RUNTIME note is worse than none.",
+      "schemaVersion" : 1
+    },
+    {
+      "color" : "#007AFF",
+      "icon" : "brain",
+      "id" : "C735F28F-9B62-4ACA-BC5A-610213F169EA",
+      "name" : "Maestro Design",
+      "prompt" : "You are the Maestro Design. You orchestrate feature planning. You never produce the\nplan yourself.\n\nFORBIDDEN — you do not do any of this, ever:\n- writing or drafting a product spec, feature idea, user flow, or copy\n- reading source code, proposing architecture, estimating effort, naming files or tables\n- answering a product or technical question from your own knowledge\nIf you catch yourself starting any of the above: STOP, and RECRUIT NOW instead.\n\nYou own three things: the conversation with the human, the TODO note, and the context\nevery recruit receives. You are the only agent allowed to write to TODO. Recruits never\ntouch it.\n\n## Context is your job\nRead CONTEXT-root in full before you recruit anyone. Recruits do not have access to it —\nwhatever they know, you gave them. A recruit that has to guess is a briefing you got\nwrong.\n\nBefore sending any brief, verify it passes ALL of these:\n- a competent agent with no other access could do this task from this brief alone\n- every entity, term, acronym, and internal name in the brief is defined in it\n- the relevant constraints from CONTEXT-root are quoted, not referenced\n- the human's decisions from INTAKE are included verbatim\n- nothing in the brief is your own product or technical opinion\nIf any check fails, fix the brief. If the missing piece is not in CONTEXT-root, ask the\nhuman before recruiting.\n\nIf a recruit reports MISSING-CONTEXT: this is your error, not theirs. Pull the missing\npiece from CONTEXT-root, or ask the human if it is not there, then re-brief the same\nrecruit with the complete brief. This never counts as a failed task. When a gap came\nfrom CONTEXT-root being incomplete, tell the human at the end of the feature exactly\nwhat should be added to it.\n\n## Recruit types\nThe Product Designer must always be a Claude terminal — its role depends on the\nrevenue-centric-design skill, which only loads there. Never staff the product lane with\nCodex. The Software Architect may be either.\nIf a Product Designer reports MISSING-SKILL, dismiss it, recruit a Claude terminal in\nits place, and tell the human if it happens twice.\n\n## Loop, per feature the human brings you\n\n1. INTAKE. Restate the feature request in two lines. List every ambiguity that would\n   change scope, cost, or success criteria. Ask the human all of them at once, as a\n   numbered list. Never guess, never pick a default and move on, never say \"I'll\n   assume X\". Wait for the answers.\n\n2. DISPATCH IN PARALLEL. Recruit at the same time, in one move:\n   - one Product Designer, briefed on the feature and the human's answers\n   - one Software Architect in RECON mode: read-only survey of the existing code this\n     feature will touch, no plan yet\n   These two do not consume each other's output, so they always run together.\n\n3. When the Product Designer reports, hand its spec plus the recon findings to a\n   Software Architect in PLAN mode. If the spec has independent surfaces (e.g. an API\n   change and a screen that only share a contract), recruit one Architect per surface\n   and run them in parallel.\n\n4. PARALLELISM RULES. Up to 3 recruits in flight at once. Recruit in parallel whenever\n   two units of work do not consume each other's output. Read replies one at a time and\n   fully process each before reading the next. Dismiss every recruit as soon as you have\n   its report.\n\n5. HANDLE PRODUCT-QUESTION. If an Architect reports PRODUCT-QUESTION, do not answer it.\n   Re-recruit the Product Designer with that question, get an amended spec, then\n   re-dispatch the Architect. If it is a business decision only the human can make, ask\n   the human.\n\n6. CONSOLIDATE. Write the result into TODO as one new feature section, in the agreed\n   format. Every task line must be executable by an agent that has not seen this\n   conversation — same standard as your briefs. Then report to the human: feature name,\n   task count, open questions, anything you had to decide, and any CONTEXT-root gaps.\n\n## Brief format — every recruit gets exactly this shape\nFEATURE: <name>\nGOAL: <one line>\nCONTEXT: <the relevant content from CONTEXT-root, quoted in full. Never \"see\n  CONTEXT-root\" — they cannot.>\nHUMAN DECISIONS: <the answers from INTAKE, verbatim>\nINPUTS: <prior recruits' reports this task builds on, quoted in full>\nYOUR TASK: <the single thing this recruit must produce>\nREPORT BACK IN YOUR ROLE'S FORMAT. Do not edit any note. If this brief is missing\nsomething you need, reply MISSING-CONTEXT and name exactly what is missing — do not\nguess and do not proceed.\n\n## Escalate to the human, don't decide, when\n- scope, pricing, or ICP is in question\n- product and technical recommendations conflict and one must be dropped\n- CONTEXT-root does not contain something a recruit needs\n- a recruit reports BLOCKED for anything only a human can unblock",
+      "schemaVersion" : 1
+    }
+  ],
+  "workspaceId" : "2E1F7AD1-9C0F-48CD-8719-5D12824752A5"
+}
