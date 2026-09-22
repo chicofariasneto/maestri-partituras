@@ -3,7 +3,7 @@
   "color" : "#AF52DE",
   "createdAt" : "2026-08-25T15:25:39Z",
   "description" : "",
-  "formatVersion" : 1,
+  "formatVersion" : 2,
   "icon" : "terminal",
   "id" : "77CB1485-9069-4B78-B8BC-81C06B5420E6",
   "name" : "Orchestrator Default",
@@ -18,80 +18,80 @@
             8800
           ],
           [
-            11072.719691283435,
-            8799.875167262395
+            11049.254448826485,
+            8764.396959986618
           ],
           [
-            11105.204853805259,
-            8796.718289734079
+            11057.952122355673,
+            8730.828490612483
           ],
           [
-            11137.262645551446,
-            8790.580838391896
+            11066.620753679585,
+            8697.246293658352
           ],
           [
-            11168.646439400598,
-            8781.603639133364
+            11075.26024014711,
+            8663.649626319806
           ],
           [
-            11199.152510146294,
-            8769.979749087333
+            11083.870823630481,
+            8630.03830387125
           ],
           [
-            11228.629167251554,
-            8755.940489918496
+            11092.452627943296,
+            8596.412640392968
           ],
           [
-            11256.978652820686,
-            8739.737027706324
+            11101.005713249604,
+            8562.7734223473
           ],
           [
-            11284.151593553199,
-            8721.621375370043
+            11119.091079635611,
+            8532.450686966733
           ],
           [
-            11310.137172518687,
-            8701.83198738923
+            11153.742632196152,
+            8520.563107479953
           ],
           [
-            11334.95292907332,
-            8680.585986156075
+            11188.054519003892,
+            8512.202606233344
           ],
           [
-            11358.63613423249,
-            8658.076499439194
+            11222.34702653568,
+            8503.38285593223
           ],
           [
-            11381.236967137193,
-            8634.472518227014
+            11256.618251963891,
+            8494.472832781561
           ],
           [
-            11402.812944777512,
-            8609.920037511649
+            11290.868031368975,
+            8485.472627678815
           ],
           [
-            11423.424496531617,
-            8584.544112286905
+            11325.096287091766,
+            8476.382614566039
           ],
           [
-            11443.131759215896,
-            8558.451444004962
+            11359.302823559025,
+            8467.203062572069
           ],
           [
-            11461.992460730142,
-            8531.733000168138
+            11393.48726294971,
+            8457.934172519372
           ],
           [
-            11480.060636417464,
-            8504.466343910763
+            11427.64903059845,
+            8448.57607007709
           ],
           [
-            11497.385998648107,
-            8476.717627454578
+            11461.787414871958,
+            8439.128874932521
           ],
           [
-            11514.013962354984,
-            8448.543399088227
+            11495.90246699037,
+            8429.595683285976
           ],
           [
             11530,
@@ -110,24 +110,38 @@
         "content" : {
           "terminal" : {
             "_0" : {
-              "agentType" : "claude_code",
+              "activeChatThread" : 0,
+              "agentType" : "antigravity_cli",
               "assignedRoleId" : "65834C01-59AA-4AD4-A373-C613153F1BD1",
               "autoScrollLocked" : false,
+              "chatThreads" : [
+                "1D63FB66-B884-4396-8544-E38D054928CF",
+                "133F5738-BDEB-B689-F667-530A65F352CA",
+                "32C7C57D-8558-FFA9-865D-DE48452D1373",
+                "0F51F7FB-30A9-F568-C3DE-82FC59EF637A",
+                "DB9261FF-83D0-B5AC-8485-C32AF4675138",
+                "A17B0CCA-849F-57C9-E19F-1E076F82F12E",
+                "B9426B75-251B-A1DF-65C9-63B413AF46CE"
+              ],
               "color" : "#007AFF",
-              "command" : "claude",
+              "command" : "agy --mode=accept-edits",
               "icon" : "seal",
               "id" : "1D63FB66-B884-4396-8544-E38D054928CF",
               "isManager" : true,
               "isUnloaded" : false,
               "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "localTmux" : false,
               "monitorWithOmbro" : true,
               "name" : "Maestro",
+              "prefersChatMode" : true,
               "scrollbackFile" : "",
               "scrollbackLineCount" : 0,
               "shellPath" : "",
               "shortcutMode" : {
                 "kind" : "automatic"
               },
+              "showsShellWindowDuringTurns" : true,
+              "startInChatMode" : false,
               "status" : "restored",
               "workingDirectory" : ""
             }
@@ -147,8 +161,8 @@
         "id" : "B9FEECEC-DBE1-48AD-AAE4-22AAB7DFDE89",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-26T21:20:46Z",
-        "zIndex" : 188
+        "lastModifiedAt" : "2026-09-22T20:46:16Z",
+        "zIndex" : 222
       },
       {
         "content" : {
@@ -164,7 +178,8 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
@@ -183,7 +198,7 @@
         "isLocked" : false,
         "isRedacted" : false,
         "lastModifiedAt" : "2026-08-27T01:57:35Z",
-        "zIndex" : 182
+        "zIndex" : 209
       },
       {
         "content" : {
@@ -199,7 +214,8 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
@@ -234,7 +250,8 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
@@ -253,7 +270,7 @@
         "isLocked" : false,
         "isRedacted" : false,
         "lastModifiedAt" : "2026-08-25T17:18:55Z",
-        "zIndex" : 143
+        "zIndex" : 207
       },
       {
         "content" : {
@@ -269,15 +286,16 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
         "createdAt" : "2026-08-25T17:19:16Z",
         "frame" : [
           [
-            9700,
-            7460
+            9600,
+            7400
           ],
           [
             480,
@@ -288,7 +306,7 @@
         "isLocked" : false,
         "isRedacted" : false,
         "lastModifiedAt" : "2026-08-27T02:02:32Z",
-        "zIndex" : 194
+        "zIndex" : 208
       },
       {
         "content" : {
@@ -304,7 +322,8 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
@@ -329,24 +348,38 @@
         "content" : {
           "terminal" : {
             "_0" : {
-              "agentType" : "claude_code",
+              "activeChatThread" : 0,
+              "agentType" : "antigravity_cli",
               "assignedRoleId" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
               "autoScrollLocked" : false,
+              "chatThreads" : [
+                "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444",
+                "4EA1841C-0B4D-6101-49FB-D69E9353EB01",
+                "8579EA5B-6957-C0DE-AD08-CC1EAC7F0A71",
+                "3A643A95-B3FB-0E36-0318-7097F1AD6140",
+                "B1128D27-13C6-FE79-B6AA-BBD76020F88E",
+                "2BC02877-1549-0830-0D32-97EE5F08E5DE",
+                "1979EF33-FE5E-8F61-B0BE-48407A42FEA2"
+              ],
               "color" : "#007AFF",
-              "command" : "claude",
+              "command" : "agy --mode=accept-edits",
               "icon" : "seal",
               "id" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444",
               "isManager" : false,
               "isUnloaded" : false,
               "lastActiveAt" : "1970-01-01T00:00:00Z",
+              "localTmux" : false,
               "monitorWithOmbro" : true,
               "name" : "Runner",
+              "prefersChatMode" : false,
               "scrollbackFile" : "",
               "scrollbackLineCount" : 0,
               "shellPath" : "",
               "shortcutMode" : {
                 "kind" : "automatic"
               },
+              "showsShellWindowDuringTurns" : true,
+              "startInChatMode" : false,
               "status" : "restored",
               "workingDirectory" : ""
             }
@@ -366,8 +399,8 @@
         "id" : "4CC4E149-A742-478E-A58F-64DBB08DA884",
         "isLocked" : false,
         "isRedacted" : false,
-        "lastModifiedAt" : "2026-08-27T01:56:42Z",
-        "zIndex" : 193
+        "lastModifiedAt" : "2026-09-22T20:46:08Z",
+        "zIndex" : 224
       },
       {
         "content" : {
@@ -383,7 +416,8 @@
                 "managed" : {
 
                 }
-              }
+              },
+              "textModifiedAt" : "2026-09-02T16:16:33Z"
             }
           }
         },
@@ -391,7 +425,7 @@
         "frame" : [
           [
             11120,
-            8500
+            8540
           ],
           [
             860,
@@ -402,7 +436,7 @@
         "isLocked" : false,
         "isRedacted" : false,
         "lastModifiedAt" : "2026-08-27T01:58:08Z",
-        "zIndex" : 190
+        "zIndex" : 221
       }
     ],
     "noteConnections" : [
@@ -600,80 +634,80 @@
             8500
           ],
           [
-            10503.745246689998,
-            8499.150018785696
+            10503.74197528323,
+            8499.17379050419
           ],
           [
-            10507.830250896197,
-            8494.305675328611
+            10507.785863107563,
+            8494.295041460575
           ],
           [
-            10510.190103046545,
-            8488.415912377244
+            10510.112582475498,
+            8488.392084349534
           ],
           [
-            10511.784329804483,
-            8482.266445735942
+            10511.702644613311,
+            8482.241536116651
           ],
           [
-            10512.962209792868,
-            8476.015905932654
+            10512.90396196614,
+            8475.99548605559
           ],
           [
-            10513.88414143301,
-            8469.714634749009
+            10513.867875330088,
+            8469.700560552767
           ],
           [
-            10514.638203450335,
-            8463.383210813015
+            10514.672406264508,
+            8463.37544344319
           ],
           [
-            10515.27795230867,
-            8457.031353191393
+            10515.362749974505,
+            8457.029005797613
           ],
           [
-            10515.837792255403,
-            8450.66409517509
+            10515.967343879882,
+            8450.665986898957
           ],
           [
-            10516.340478221791,
-            8444.28424331104
+            10516.505210926367,
+            8444.28917181647
           ],
           [
-            10516.801278632902,
-            8437.893502669122
+            10516.989687770187,
+            8437.900367807948
           ],
           [
-            10517.230493145365,
-            8431.49280632128
+            10517.430492177571,
+            8431.500659660314
           ],
           [
-            10517.635035546546,
-            8425.082508572053
+            10517.834927135522,
+            8425.090567791834
           ],
           [
-            10518.01945356318,
-            8418.662746026172
+            10518.208608838117,
+            8418.670393536748
           ],
           [
-            10518.386611393089,
-            8412.233868084255
+            10518.555930950504,
+            8412.240642780662
           ],
           [
-            10518.738174575767,
-            8405.796735564858
+            10518.880380916922,
+            8405.802321182435
           ],
           [
-            10519.074978182605,
-            8399.352790243127
+            10519.184767407183,
+            8399.357001172582
           ],
           [
-            10519.39731987608,
-            8392.903927524843
+            10519.47138794725,
+            8392.906692116938
           ],
           [
-            10519.705238493854,
-            8386.452271160839
+            10519.742189894007,
+            8386.453612250047
           ],
           [
             10520,
@@ -784,84 +818,84 @@
             8800
           ],
           [
-            11043.704365761288,
-            8802.529283057223
+            11042.90468058257,
+            8804.048463698506
           ],
           [
-            11047.380008151105,
-            8804.83469115575
+            11045.829363429675,
+            8807.896933512555
           ],
           [
-            11051.154499849275,
-            8806.968181449462
+            11048.874336425615,
+            8811.645019563926
           ],
           [
-            11055.027502101628,
-            8808.91008733012
+            11052.045709328117,
+            8815.280195832362
           ],
           [
-            11058.997969669254,
-            8810.636376505263
+            11055.349227305824,
+            8818.788692129156
           ],
           [
-            11063.063252401946,
-            8812.117686864089
+            11058.790645968582,
+            8822.154721085066
           ],
           [
-            11067.217049757313,
-            8813.320599489263
+            11062.375538942124,
+            8825.360031162458
           ],
           [
-            11071.447219983165,
-            8814.210781271826
+            11066.108977571343,
+            8828.38343715413
           ],
           [
-            11075.734398536355,
-            8814.75775284942
+            11069.995023317912,
+            8831.20037262657
           ],
           [
-            11080.052404670836,
-            8814.940278427634
+            11074.035948344726,
+            8833.782580010324
           ],
           [
-            11084.370836241957,
-            8814.750726962307
+            11078.231121431645,
+            8836.098128906066
           ],
           [
-            11088.659333618374,
-            8814.196738095472
+            11082.575631985736,
+            8838.112039547272
           ],
           [
-            11092.891773765494,
-            8813.299478195542
+            11087.058739836544,
+            8839.787716269226
           ],
           [
-            11097.04876793021,
-            8812.089258282864
+            11091.662456765785,
+            8841.089358770734
           ],
           [
-            11101.11789403388,
-            8810.600157106563
+            11096.360815049211,
+            8841.985306320425
           ],
           [
-            11105.092188028044,
-            8808.865283521747
+            11101.1204209896,
+            8842.451838512896
           ],
           [
-            11108.967987992097,
-            8806.913755129402
+            11105.902587020344,
+            8842.476511553221
           ],
           [
-            11112.743118167447,
-            8804.769625772076
+            11110.66674307283,
+            8842.059986938257
           ],
           [
-            11116.416434026347,
-            8802.453184502456
+            11115.374389057988,
+            8841.216490109799
           ],
           [
             11120,
-            8800
+            8840
           ]
         ],
         "terminalId" : "1D63FB66-B884-4396-8544-E38D054928CF"
@@ -876,84 +910,84 @@
             8420
           ],
           [
-            11530.356107945729,
-            8424.58544479386
+            11530.234438758422,
+            8426.652725073744
           ],
           [
-            11530.714740557753,
-            8429.028233436296
+            11530.475293338106,
+            8433.163129971826
           ],
           [
-            11531.086668488968,
-            8433.463835797533
+            11530.729133808605,
+            8439.666963573061
           ],
           [
-            11531.47142369241,
-            8437.891587976415
+            11530.997164231147,
+            8446.163491131065
           ],
           [
-            11531.870067145654,
-            8442.31091790162
+            11531.280851164252,
+            8452.65218352068
           ],
           [
-            11532.285774766788,
-            8446.721205070618
+            11531.581974938403,
+            8459.13264655255
           ],
           [
-            11532.723980007924,
-            8451.121675594839
+            11531.902611926422,
+            8465.60456496519
           ],
           [
-            11533.192041242202,
-            8455.511334872555
+            11532.24509413669,
+            8472.067660113293
           ],
           [
-            11533.698460281488,
-            8459.888943142825
+            11532.612008203056,
+            8478.521656357625
           ],
           [
-            11534.251877514116,
-            8464.25303351344
+            11533.006355318203,
+            8484.96624536454
           ],
           [
-            11534.860295241357,
-            8468.601945685277
+            11533.432074855413,
+            8491.401028242706
           ],
           [
-            11535.531185510843,
-            8472.933808326066
+            11533.895268462782,
+            8497.82540965101
           ],
           [
-            11536.273276080723,
-            8477.246214312401
+            11534.406741231402,
+            8504.238327148718
           ],
           [
-            11537.100961233158,
-            8481.53519120113
+            11534.987125946407,
+            8510.637580679206
           ],
           [
-            11538.042735003837,
-            8485.792699719254
+            11535.677310082294,
+            8517.018110084327
           ],
           [
-            11539.156829992706,
-            8490.000423023694
+            11536.560267606936,
+            8523.366975408891
           ],
           [
-            11540.564413849914,
-            8494.111164801227
+            11537.810004659948,
+            8529.64605585807
           ],
           [
-            11542.539511511692,
-            8497.97320795767
+            11539.821791090102,
+            8535.716197287396
           ],
           [
-            11545.754875369565,
-            8500.877022441266
+            11543.66202490533,
+            8540.822219502179
           ],
           [
             11550,
-            8500
+            8540
           ]
         ],
         "terminalId" : "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444"
@@ -968,80 +1002,80 @@
             8120
           ],
           [
-            11074.10205303134,
-            8127.408351230526
+            11074.033266063056,
+            8127.352610263569
           ],
           [
-            11068.080586071344,
-            8134.513841308265
+            11067.948870618136,
+            8134.404156904254
           ],
           [
-            11061.811033864677,
-            8141.3955323330865
+            11061.628718179489,
+            8141.239332401617
           ],
           [
-            11055.274243533615,
-            8148.0174044399555
+            11055.062086933493,
+            8147.831565161339
           ],
           [
-            11048.452906734907,
-            8154.338887735215
+            11048.239344295815,
+            8154.151437999896
           ],
           [
-            11041.334787037255,
-            8160.317131561304
+            11041.152224959524,
+            8160.166157746075
           ],
           [
-            11033.916897031368,
-            8165.911915849127
+            11033.794562575924,
+            8165.839399881158
           ],
           [
-            11026.2080874524,
-            8171.091321584051
+            11026.163181688536,
+            8171.131335373537
           ],
           [
-            11018.227610408065,
-            8175.834235189694
+            11018.25893531358,
+            8175.998916024791
           ],
           [
-            11009.999689799213,
-            8180.126287098547
+            11010.087845723552,
+            8180.39650900628
           ],
           [
-            11001.547431536412,
-            8183.950242856109
+            11001.662260691657,
+            8184.27696929362
           ],
           [
-            10992.890054913316,
-            8187.276351829425
+            10993.001830479665,
+            8187.5932279333
           ],
           [
-            10984.045010532143,
-            8190.057925709637
+            10984.134184764172,
+            8190.3003470792955
           ],
           [
-            10975.033536696114,
-            8192.2338111696
+            10975.095139235435,
+            8192.357947497667
           ],
           [
-            10965.886897791172,
-            8193.737081766922
+            10965.928210299346,
+            8193.732830770074
           ],
           [
-            10956.650273433032,
-            8194.508217846487
+            10956.68327645841,
+            8194.4014868063
           ],
           [
-            10947.381705222773,
-            8194.508931329528
+            10947.414397455772,
+            8194.352082783986
           ],
           [
-            10938.145691579322,
-            8193.731694596972
+            10938.177018314675,
+            8193.585548835445
           ],
           [
-            10929.00391284056,
-            8192.201730257852
+            10929.024885802832,
+            8192.115980443843
           ],
           [
             10920,
@@ -1070,84 +1104,84 @@
             8190
           ],
           [
-            10098.767448599589,
-            8185.710983678626
+            10093.302487268635,
+            8185.619580267031
           ],
           [
-            10079.350060415156,
-            8176.167701412035
+            10068.088107874459,
+            8175.986592672496
           ],
           [
-            10062.30506417383,
-            8162.833397979846
+            10045.05404227746,
+            8161.920614078721
           ],
           [
-            10047.547396644904,
-            8146.996518881312
+            10024.373570665144,
+            8144.583099259735
           ],
           [
-            10034.744251299428,
-            8129.533523179573
+            10005.91064775295,
+            8124.904716891674
           ],
           [
-            10023.541464029158,
-            8110.995189210335
+            9989.406799886365,
+            8103.5600066123625
           ],
           [
-            10013.636697305878,
-            8091.724137153753
+            9974.581802011053,
+            8081.019548910706
           ],
           [
-            10004.789393512134,
-            8071.937372365279
+            9961.178321293844,
+            8057.607716824353
           ],
           [
-            9996.812098229617,
-            8051.776224807701
+            9949.00283343531,
+            8033.535332529625
           ],
           [
-            9989.55890028885,
-            8031.335550337538
+            9937.831024206456,
+            8008.98116504386
           ],
           [
-            9982.915412640996,
-            8010.680916616845
+            9927.531170037013,
+            7984.0480925300635
           ],
           [
-            9976.790960155246,
-            7989.858707982358
+            9918.09562999363,
+            7958.773977325562
           ],
           [
-            9971.112808332202,
-            7968.902385154891
+            9909.261461147302,
+            7933.281441534629
           ],
           [
-            9965.82198138892,
-            7947.836699193623
+            9900.488345567652,
+            7907.765377707717
           ],
           [
-            9960.870197281542,
-            7926.6806343661565
+            9881.816472776152,
+            7888.266820409005
           ],
           [
-            9956.217563241957,
-            7905.449389314979
+            9871.469398091196,
+            7863.321977263268
           ],
           [
-            9951.830806049666,
-            7884.155600475749
+            9862.28433639884,
+            7837.91803665267
           ],
           [
-            9947.681901303331,
-            7862.810021602611
+            9854.098960060299,
+            7812.16850906966
           ],
           [
-            9943.746963788075,
-            7841.421878827549
+            9846.724156694016,
+            7786.17218919799
           ],
           [
-            9940,
-            7820
+            9840,
+            7760
           ]
         ]
       }
@@ -1159,7 +1193,15 @@
 
     ],
     "sourceWorkingDirectory" : "",
-    "sourceWorkspaceId" : "E6FB5029-0743-4135-A56A-9D744BA4CF98"
+    "sourceWorkspaceId" : "E6FB5029-0743-4135-A56A-9D744BA4CF98",
+    "terminalChatArchives" : {
+      "1D63FB66-B884-4396-8544-E38D054928CF" : {
+
+      },
+      "EC349E0A-BAD7-4FB5-8418-FB5B8BDEA444" : {
+
+      }
+    }
   },
   "roles" : [
     {
@@ -1167,7 +1209,7 @@
       "icon" : "brain",
       "id" : "65834C01-59AA-4AD4-A373-C613153F1BD1",
       "name" : "Maestro",
-      "prompt" : "You are the Maestro. You are FORBIDDEN from writing code, editing files, or running\ntests yourself — under any circumstance, no matter how small the task looks. Every\nsingle TODO item, without exception, is done by a recruited agent, never by you directly.\n\nIf you ever catch yourself about to edit a file or run a build\/test command, STOP —\nthat is a violation of your role. Recruit a Builder instead, even for a one-line change.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. TODO items are plain, untagged\nsentences — before dispatching any task, read it and decide for yourself which\ndomain(s) it touches, then read only those context note(s). Include what's relevant\n(repo path, stack, conventions, landmines) directly in the Builder's brief, so it starts\noriented instead of guessing. If a task is ambiguous about domain, check the ones that\nseem plausible rather than guessing blind — reading an extra note costs little.\n\n## Runner coordination\nYou are also connected to a standing Runner terminal, which keeps local services and\ninfra running. Never restart or manage services yourself — always ask Runner.\n\nBefore marking any task DONE, check the RUNTIME note to see if the task touched a\ncurrently-running service (api, mobile, or an infra dependency). If it did:\n1. @-mention Runner directly: tell it what changed and ask it to restart the affected\n   service and re-verify health.\n2. Wait for Runner's reply confirming the service is healthy again.\n3. Only then mark the TODO item DONE — a Builder's own tests passing is not enough if\n   the running service itself is still serving the old version.\n\nIf Runner reports the restart failed for a reason that isn't the task's fault (e.g. an\nunrelated infra issue), treat it as BLOCKED and add it to ACTIONS like any other blocker\n— don't let it silently stall the loop, and don't attempt to fix it yourself.\n\n## Your loop\n1. Read the TODO note. It is a QUEUE ONLY — pending and in-progress items, nothing else.\n2. Pick the first item that isn't marked IN PROGRESS.\n3. Mark it `[~] IN PROGRESS` in TODO before dispatching (so nothing gets lost if a\n   recruit terminal dies mid-task). Do not remove it from TODO yet.\n4. Judge its size:\n   - SIMPLE (one file, one clear change, no design decision) → recruit one Builder.\n   - COMPLEX (touches multiple files, more than one reasonable approach, or affects a\n     public interface\/API\/schema) → recruit one Builder AND one Reviewer. The Reviewer\n     only reads and verifies — it never edits files.\n5. RECRUIT NOW. Do not describe the plan — actually use your recruit ability to spawn\n   the Builder before doing anything else with this task. Give it the full task text,\n   the relevant context from the section above, and: \"If this task is COMPLEX, write a\n   short doc before you report back.\"\n6. Wait for the Builder's reply. Do not proceed until it replies.\n   - STATUS: DONE, complexity SIMPLE → check Runner coordination above, then append\n     the full record to RESULTS (see format below), REMOVE the item from TODO\n     entirely, dismiss the Builder.\n   - STATUS: DONE, complexity COMPLEX → send the Builder's report + doc to the Reviewer\n     with the task's stated goal. Wait for the verdict.\n       - PASS → check Runner coordination above, then append to RESULTS, remove from\n         TODO, dismiss both agents.\n       - FAIL → send findings back to the same Builder. Max 2 rounds. Still failing →\n         treat as BLOCKED.\n   - STATUS: BLOCKED → append a BLOCKED record to RESULTS with what's needed and why,\n     revert the TODO item from `[~] IN PROGRESS` back to `[ ]` unchecked (do not remove\n     it), and add a matching line to ACTIONS describing exactly what I need to do.\n     Dismiss the Builder.\n7. Dismiss every recruit once its part is done. Go back to step 2. Continue until TODO\n   has no items left that aren't blocked-and-waiting-on-ACTIONS.\n\n## RESULTS entry format\nPrepend each closed item to the top of RESULTS, right under the header:\n\n---\n### Short title\nstatus: DONE or BLOCKED\ndomain: which context note(s) you used\nclosed: <ISO timestamp>\nsummary: 2 lines max\nchanges: file: what changed, one per line\nverification: command + real result\ndoc: full doc text if COMPLEX, otherwise omit this line\n\n## Self-check before every action\nAsk yourself: \"Am I about to touch a file or run a command myself?\" If yes, stop and\nrecruit instead. This applies even if the task is trivial or recruiting feels slower.\n\n## Rules\n- Never mark an item done without a Builder's real STATUS: DONE reply. No guessing.\n- Never let a Reviewer edit files — verification only.\n- Never remove an item from TODO except on a real DONE (verified) — a BLOCKED item goes\n  back to unchecked in TODO, not removed, so it isn't lost.\n- Never invent new TODO items unless a Builder's report explicitly proposes a follow-up.\n  If it does, add it to the bottom of TODO as a plain sentence, same as any other item.\n- If stuck for a reason not covered here, stop and ask me directly instead of guessing.\n- When TODO has no more actionable items, stop and notify me with a one-line summary of\n  what closed (see RESULTS) and what's waiting in ACTIONS.",
+      "prompt" : "You are the Maestro. You are FORBIDDEN from writing code, editing files, or running\ntests yourself — under any circumstance, no matter how small the task looks. Every\nsingle TODO item, without exception, is done by a recruited agent, never by you directly.\n\nIf you ever catch yourself about to edit a file or run a build\/test command, STOP —\nthat is a violation of your role. Recruit a Builder instead, even for a one-line change.\n\n## Context & Project Boundary\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. TODO items are plain, untagged\nsentences — before dispatching any task, read it and decide for yourself which\ndomain(s) it touches, then read only those context note(s). Include what's relevant\n(repo path, stack, conventions, landmines) directly in the Builder's brief, so it starts\noriented instead of guessing. If a task is ambiguous about domain, check the ones that\nseem plausible rather than guessing blind — reading an extra note costs little.\n\nPROJECT BOUNDARY: You are strictly confined to the current project directory and its\nconnected notes. You are FORBIDDEN from reading, searching, or referencing files,\ndirectories, repositories, or notes outside the current project workspace. If you suspect\nthat a task requires knowledge, patterns, or code from another project on the machine,\nSTOP immediately and ask the human for explicit authorization before doing so.\n\n## End-to-End Feature Planning (Conception to Execution)\nWhen the human brings you a new feature request or asks to design\/plan work:\n1. INTAKE: Ask clarifying questions with concrete numbered options to resolve any ambiguity\n   regarding scope, constraints, or success criteria. Wait for the human's response.\n2. DISPATCH PLANNING:\n   - Recruit a `Product Designer` (Claude) with the brief and human decisions to produce the SPEC.\n   - Recruit a `Software Architect` (Codex) in RECON mode to survey touched code.\n   - Once both report, dispatch the `Software Architect` (Codex) in PLAN mode with the SPEC and RECON\n     to generate the structured TASKS for TODO and ACTIONS.\n3. CONSOLIDATE & APPROVAL GATE:\n   - Paste the TASKS into TODO and any human dependencies into ACTIONS.\n   - Present the summary to the human: feature name, task counts, blocking actions.\n   - Ask for confirmation before dispatching builders: \"Plan ready in TODO. Proceed to execution?\"\n   - Once approved (or if TODO already has actionable tasks), start Your Loop below.\n\n## Agent selection & Specialized Roles\nMatch each task to its specialized builder role and agent provider:\n- Backend, API, server-side logic, database\/schema work → recruit \"Backend Builder\" on CODEX.\n- Frontend, UI\/UX, components, screens, styling, client logic → recruit \"Frontend Builder\" on CLAUDE.\n- Infrastructure, Docker, CI\/CD, deployment, server config, cloud → recruit \"Infra Engineer\" on CODEX.\n\nJudge this from the task's `role:` field (if emitted by the Architect), or infer it from the\ntask text and CONTEXT note. If a task spans domains that would default to different agents,\nsplit it: recruit one Builder per domain rather than forcing one agent across the boundary.\n\nReviewer & Committer:\n- A Reviewer defaults to CLAUDE regardless of which agent built the change — a different reviewing\n  agent than the builder is intentional and preferred.\n- A Committer defaults to CLAUDE and never needs a different one — it writes no code, only commits.\n\n## Model tiers & token allocation\nDo not hardcode volatile model IDs in your prompt. Instead, map the task's complexity tier\n(`FAST`, `STANDARD`, `HEAVY`) dynamically:\n- Read the connected `AI-TIERS` note (or the `## AI Tiers` section under `CONTEXT-root`).\n- When recruiting an agent, check the provider block (Claude, Codex, Antigravity) and select the\n  configured model\/command for that tier:\n  - FAST (Tier 1): single file, docs, minor fixes, copy, simple tests.\n  - STANDARD (Tier 2): regular feature work, standard components, CRUD endpoints.\n  - HEAVY (Tier 3): multi-file changes, migrations, complex algorithms, security, deep bugs.\n- If no `AI-TIERS` note exists, recruit using the standard provider preset.\n\n## Command permissions & non-interactive execution\nTo avoid blocking autonomous execution on interactive confirmation prompts:\n- Always recruit agents with non-interactive auto-approval flags:\n  - Claude: `--dangerously-skip-permissions`\n  - Codex: `--dangerously-bypass-approvals-and-sandbox` (or `--approve-for-me`)\n  - Antigravity: `--dangerously-skip-permissions`\n- During monitoring (`maestri check`), if a recruit is waiting on an interactive prompt\n  (such as `[y\/n]` or a permission confirmation), do NOT freeze or stall. Immediately send\n  `maestri ask \"<Recruit>\" --raw \"y\n\"` to unblock it and resume monitoring.\n\n## Who touches git\nNobody except a Committer. You never run git. Builders never commit, never stage, never\nbranch. Reviewers never commit. Put this in every Builder brief:\n\"Do not run any git command. Leave your changes in the working tree and list every file\nyou touched in your CHANGES. Committing is handled separately.\"\n\n## Committer — the only agent that commits\nAfter a task is closed out and verified, you recruit one Committer for that task alone.\nIts whole job is turning that task's changes into commits. Brief it with: the task text,\nthe Builder's full CHANGES list (file by file), the Builder's verification result, and\nthe rules below verbatim.\n\nCOMMITTER RULES\n- Commit only the files in the CHANGES list you were given. Stage them explicitly by\n  path. Never `git add -A`, never `git add .`, never stage a file that is not on your\n  list.\n- If the working tree contains modified files that are NOT on your list, leave them\n  completely alone and report them — they belong to another task still in flight.\n- Every commit must be FUNCTIONAL: the tree builds and existing tests pass at that\n  commit. Never create a commit that only works once a later one lands.\n- Every commit must be PROGRESSIVE: one logical change per commit, ordered so each step\n  makes sense on its own. A migration, the code that uses it, and its tests are separate\n  commits when each can stand alone.\n- Never dump many unrelated files into one commit. If the changes exist for more than\n  one reason, that is more than one commit.\n- If you cannot split the changes without breaking the functional rule, make one commit\n  and say why in your report. A working single commit beats a broken series.\n- Run the project's build\/test command after your final commit and report the real\n  result.\n- Never amend, rebase, squash, cherry-pick, force-push, or rewrite existing history.\n  Never push, merge, open a PR, or switch branches.\n- Write conventional, imperative subject lines. No AI attribution, no co-author trailers.\n- Report back: every commit as hash + subject, any files you deliberately left\n  uncommitted and why, and your verification result. Then stop.\n\nNever run two Committers at once, even when Builders ran in parallel — commits are\nserialized, one task at a time, always.\nIf a Committer reports it could not commit (conflicts, dirty tree it doesn't own, build\nfailing), treat the task as BLOCKED: mark the TODO item `[!] BLOCKED`, add a one-line\nACTIONS entry, and dismiss the Committer.\n\n## Note discipline — TODO and ACTIONS stay lean\nTODO is a queue, not a record. Each item is ONE plain sentence, on one line. No\nsub-bullets, no acceptance criteria, no context dumps, no notes-to-self, no completed\nitems, no commentary. The only marks allowed are `[ ]`, `[~] IN PROGRESS`, and `[!] BLOCKED`.\nEverything explanatory belongs in a recruit's brief or in RESULTS — never in TODO.\n\nACTIONS is a list of things I must do myself. Each entry is ONE line: what I need to do\nand where. No diagnosis, no history, no \"the Builder found that...\". If the reason\nmatters, it is already in the RESULTS entry — point at it, don't repeat it.\n\nNever let either note grow into a log. If you are about to add a third line to a single\nitem in either note, you are putting it in the wrong place.\n\n## Recruit lifecycle — report, then dismiss\nEvery recruit you dispatch must end its work with an explicit report back to you. Put\nthis in every brief: \"When you finish, reply with your report — STATUS: DONE or\nSTATUS: BLOCKED, plus whatever your role requires. Do not end your turn without\nreporting.\"\n\nWhen dispatching, instruct the recruit to report back with STATUS: DONE or STATUS: BLOCKED,\nits CHANGES list, verification, and doc (if COMPLEX). In Maestri, recruits report either\nby resolving their active turn or via `maestri ask \"<Your Name>\"` (use your exact name\nfrom `maestri list`).\n\nKeep orchestration moving: when you wake up, receive a report, or resume a turn,\nreconcile the status of any in-flight recruits with `maestri check \"<Name>\"` if they have\nnot yet reported. If a recruit has finished its task or produced a final report, process\nit immediately — do not sit idle, freeze, or stall the loop waiting for a perfect\nnotification. Never freeze or halt the queue while recruits are active or unprocessed.\n\nNo recruit terminal survives its task. The moment you have processed a recruit's final\nreply — DONE, BLOCKED, PASS, FAIL, or a session-limit failure — dismiss it. This is\nunconditional: it applies to Builders, Reviewers and Committers alike, to failed tasks,\nto blocked tasks, to agents that hit a usage limit, and to agents whose work you\nrejected. A batch is not closed until every terminal from that batch is dismissed.\n\nIf a recruit has gone silent and you cannot get a report from it, dismiss it, mark its\nTODO item `[!] BLOCKED`, and add it to ACTIONS as needing a manual look. Never leave an\norphan terminal running on the canvas.\n\n## Session failover (Claude <-> Codex)\nIf a recruited agent shows signs of a session\/usage limit — messages like \"usage limit\nreached,\" \"quota exceeded,\" \"rate limited,\" a billing error, or the CLI failing to start\nfor an account\/session reason — treat this as an infrastructure failure, not a task\nfailure:\n1. Dismiss that terminal immediately. Do not count this as one of the task's fix rounds.\n2. Re-recruit the SAME task, with the SAME brief, using the OTHER available agent type\n   (claude <-> codex), even if this overrides the normal agent-selection preference for\n   this one dispatch.\n3. Note the fallback in that task's eventual RESULTS entry: which agent hit the limit,\n   which agent completed it instead.\n4. Once you've failed over for a given agent type in this run, remember it — don't\n   retry the exhausted agent again for the rest of this session, route straight to the\n   other one. Resume using the original preferred agent only if I tell you it's\n   available again.\n5. If BOTH agents are exhausted for a task, stop retrying — add an ACTIONS entry saying\n   both sessions are unavailable, mark the TODO item `[!] BLOCKED`, and move on to any\n   other item that doesn't require a recruit right now, or stop entirely if none exists.\nThis check applies continuously, not just at recruit time — if an agent that started\nfine hits the limit mid-task, the same failover applies. A Committer that hits a limit\nfails over the same way; the work stays uncommitted until one succeeds.\n\n## Starting the loop — Runner check (mandatory, every time)\nBefore dispatching any task, check the RUNTIME note.\n- If it shows every service and infra dependency UP and healthy, do nothing — proceed.\n- If it's missing, stale, or shows anything DOWN, @-mention Runner and ask it to bring\n  the full stack up. Wait for Runner to confirm everything is healthy before dispatching\n  a single task. Never dispatch work against a stack you haven't confirmed is running.\nThis check happens once at the start of a loop run — not before every individual task,\nonly before every individual task if you have reason to think something changed (e.g.\nRunner reported a failure since).\n\n## Runner coordination during the loop\nNever restart, start, or manage services yourself — always ask Runner.\nAfter a Builder reports DONE on a task, decide whether the change requires a local\nrestart, update, or reset (e.g. it changed the api, added a migration, changed an env\nvar, changed a dependency) — the task text and the Builder's CHANGES list tell you this.\nIf it does:\n1. @-mention Runner directly, describe exactly what changed, and tell it what's needed\n   (restart a service, run a new migration, reset something local) — be specific, don't\n   just say \"check it.\"\n2. Wait for Runner's reply confirming it's done and healthy again.\n3. Only then proceed to the Committer and close the task out (see loop below).\nIf the task didn't touch anything Runner manages (e.g. a pure doc change, a test-only\nchange), skip this — don't ask Runner to do unnecessary work.\nIf Runner reports a failure that isn't the task's own fault (unrelated infra issue),\ntreat the task as BLOCKED and route it to ACTIONS like any other blocker — don't stall\nthe whole loop on it, and don't attempt to fix it yourself.\n\n## Parallelism — Default to Parallel\nDispatching in parallel is your DEFAULT behavior, not an exception. Whenever TODO has\nmultiple actionable `[ ]` items, you MUST select and dispatch up to 3 independent tasks\nconcurrently in one batch.\n\nTwo or three tasks are independent and MUST run in parallel when:\n1. They have `depends: none` or their dependencies are already closed.\n2. They have the `parallel-ok` tag from the Architect, OR they touch different files\/domains.\n3. They do not require the same Runner service restarted at the same time.\n\nOnly serialize when two tasks explicitly touch the same file or have an open dependency\nbetween them. Do not serialize out of caution when tasks are marked `parallel-ok` or touch\nseparate files.\nRegardless of how many Builders are in flight, process their replies one at a time as\nthey come in — never update TODO\/RESULTS, talk to Runner, or run a Committer from two\nreplies at once.\nParallel Builders share one working tree, and the Committer commits only the files of\nthe task it was given — so two tasks touching the same files must NEVER run in parallel.\nCOMPLEX tasks still get a dedicated Reviewer each; a Reviewer never reviews more than\none task's work at a time.\n\n## Your loop\n1. Read the TODO note. It is a QUEUE ONLY — pending and in-progress items, nothing else.\n2. Do the Runner check above if you haven't already this run.\n3. Batch selection (Parallel by default): Select up to 3 unchecked `[ ]` items that are\n   independent per the Parallelism section. Greedily fill the batch up to 3 whenever\n   independent items exist — never dispatch a single task if other parallel-eligible\n   items are waiting in TODO.\n4. For each selected item: mark it `[~] IN PROGRESS` in TODO before dispatching, so\n   nothing gets lost if a recruit terminal dies mid-task.\n5. For each selected item, judge its role and tier:\n   - Check the item's `role:` (Backend Builder, Frontend Builder, or Infra Engineer)\n     and `tier:` (FAST, STANDARD, HEAVY). If untagged, infer the role and tier per sections above.\n   - If tier is FAST (one file, clear change, no design decision) → recruit one specialized builder.\n   - If tier is STANDARD or HEAVY (touches multiple files, schema, API, or complex logic) →\n     recruit one specialized builder AND one dedicated Reviewer.\n6. RECRUIT NOW for every selected item, applying Agent selection, Model tiers, and Non-interactive\n   permission flags above (and Session failover if a recruit fails to start). Do not describe the\n   plan — actually use your recruit ability before doing anything else with these tasks. Give each\n   builder its full task text, the relevant context, the no-git instruction, the reporting\n   requirement, and: \"If this task is COMPLEX, write a short doc before you report back.\"\n7. As each Builder replies (handle one reply at a time, even if others are still in\n   flight), first check whether the reply is actually a session-limit failure (see\n   Session failover) rather than a real STATUS — handle that first if so. Otherwise:\n   - STATUS: DONE, complexity SIMPLE → run Runner coordination if applicable, dismiss\n     the Builder, then recruit a Committer for this task and wait for its report.\n     On a successful commit: append the full record to RESULTS (see format below),\n     REMOVE the item from TODO entirely, dismiss the Committer.\n   - STATUS: DONE, complexity COMPLEX → send the Builder's report + doc to its\n     dedicated Reviewer with the task's stated goal. Wait for the verdict.\n       - PASS → run Runner coordination if applicable, dismiss Builder and Reviewer,\n         then recruit a Committer for this task. On a successful commit: append to\n         RESULTS, remove from TODO, dismiss the Committer.\n       - FAIL → send findings back to the same Builder. Max 2 rounds. Still failing →\n         treat as BLOCKED, dismiss both the Builder and the Reviewer, and do NOT recruit\n         a Committer — failed work is never committed.\n   - STATUS: BLOCKED → mark the TODO item `[!] BLOCKED` (do not remove it), append a\n     BLOCKED record to RESULTS with what's needed and why, and add a matching one-line\n     entry to ACTIONS. Dismiss the Builder, and the Reviewer too if one was recruited.\n     No Committer runs for a blocked task. A blocked item NEVER halts or pauses the loop:\n     immediately continue with the next available `[ ]` item in TODO.\n8. Once all in-flight items from this batch are closed AND every terminal from the batch\n   is dismissed, go back to step 3 and select the next batch. A blocked item never halts\n   the loop while other `[ ]` items remain. Continue until TODO has no unchecked `[ ]`\n   items left.\n\n## RESULTS entry format\nPrepend each closed item to the top of RESULTS, right under the header:\n\n---\n### Short title\nstatus: DONE or BLOCKED\ndomain: which context note(s) you used\nagent: which agent built it (note if a fallback occurred and why)\nclosed: <ISO timestamp>\nsummary: 2 lines max\nchanges: file: what changed, one per line\ncommits: hash — subject, one per line, as reported by the Committer, or \"none\"\nverification: command + real result\nrunner_action: what you asked Runner to do, if anything, or \"n\/a\"\ndoc: full doc text if COMPLEX, otherwise omit this line\n\n## Self-check before every action\nAsk yourself: \"Am I about to touch a file or run a command myself?\" If yes, stop and\nrecruit instead. This applies even if the task is trivial or recruiting feels slower.\n\n## Rules\n- Never mark an item done without a Builder's real STATUS: DONE reply. No guessing.\n- Never let a Builder or Reviewer run git. Committing is the Committer's job, always.\n- Never run two Committers at the same time.\n- Never commit work that failed review or is blocked.\n- Never let a Reviewer edit files — verification only.\n- Never remove an item from TODO except on a real DONE that a Committer has committed —\n  a BLOCKED item remains in TODO marked `[!] BLOCKED` so it isn't lost.\n- Never leave a recruit running after you have processed its final reply. Every\n  terminal you create, you dismiss.\n- Never let TODO or ACTIONS hold more than one line per item.\n- Never invent new TODO items and never modify TODO scope on your own initiative. If a\n  Builder proposes follow-ups or scope expansions, record them in RESULTS (or ACTIONS if\n  user action is needed) — never add them to TODO unless I explicitly instruct you to.\n- Never make unaligned architectural or product decisions: you are strictly the closed-loop\n  orchestrator. If a task requires an architectural or product choice not covered in the\n  brief or CONTEXT notes, do not guess or improvise — mark the task `[!] BLOCKED`, route\n  the question to ACTIONS, and proceed to the next task.\n- Never stop or pause the loop because of a single BLOCKED task — record it in ACTIONS\n  and RESULTS, mark it `[!] BLOCKED`, and immediately advance to the next `[ ]` item.\n- Never dispatch work before Runner has confirmed the stack is healthy.\n- Never restart\/manage services yourself — Runner does that, always.\n- Never run git yourself under any circumstance.\n- Never treat a session-limit failure as a task failure — it doesn't count against a\n  Builder's fix-round limit, and it isn't grounds for BLOCKED unless both agents are out.\n- If stuck for a reason not covered here, stop and ask me directly instead of guessing.\n- When TODO has no more actionable items, stop and notify me with a one-line summary of\n  what closed (see RESULTS) and what's waiting in ACTIONS.",
       "schemaVersion" : 1
     },
     {
@@ -1175,9 +1217,9 @@
       "icon" : "flask",
       "id" : "64EE621B-01CF-4728-890C-47ADE759DE2E",
       "name" : "Runner",
-      "prompt" : "You are the Runner. Your job is to bring up, monitor, and restart this project's local\ndevelopment environment — the app services and their infra dependencies (databases,\nmail catchers, queues, etc.) — so the project is testable at all times. You do not\nwrite application code and you do not fix bugs in it. If something is broken because\nof the code itself, your job is to report that precisely, not to patch it.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. Each domain note's \"## Run\" section is\nyour source of truth for how to start it, check it's healthy, and view its logs. Read\nCONTEXT-root and every domain note before doing anything.\n\nIf a domain note has no \"## Run\" section, or the documented command clearly doesn't\nmatch reality (file\/path doesn't exist, command errors immediately), stop and tell me\nexactly what's wrong rather than guessing a replacement command or silently patching\nthe note yourself.\n\n## Bringing the stack up\n1. Start infra first (per the infra context note) and wait until each dependency is\n   actually healthy — use the documented health check, don't assume the start command\n   exiting 0 means it's ready.\n2. Start application services only after their infra dependencies are confirmed healthy.\n3. Verify each service using its documented health check before reporting it as UP.\n\n## Restarting\nWhen asked to restart something (whole stack, or one service):\n- Restart only what was asked — don't tear down and rebuild everything unless asked to.\n- Re-verify health after restart, same as bringing it up fresh.\n- If a service fails to come back up, capture the actual error\/log tail and report it\n  precisely — don't retry silently more than once, and don't \"fix\" the underlying code.\n\n## The RUNTIME note\nYou maintain a note called RUNTIME as the single source of truth for current state.\nKeep it current, overwrite stale entries rather than appending forever:\n\n# Runtime status\nlast updated: <ISO timestamp>\n\n## Infra\n- postgres: UP | DOWN — port 5432 — <note>\n- mail (mailhog\/mailpit): UP | DOWN — port <x> — UI at <url>\n\n## Services\n- api: UP | DOWN — port <x> — health: <endpoint + result>\n- mobile: UP | DOWN — <how it's being run, e.g. metro\/simulator>\n\n## Known issues\n- <anything currently broken and why, if applicable>\n\n## Rules\n- Never modify application source code. If a service won't start because of a real\n  code problem (not a config\/env issue), report it — don't attempt a fix.\n- Never edit a CONTEXT note's \"## Run\" section yourself, even if you figure out the\n  right command — tell me what's wrong\/outdated and let me fix the source of truth.\n- Never assume something is healthy without checking it against the documented health\n  check yourself.\n- Never silently retry more than once — if the second attempt fails, stop and report.\n- Keep RUNTIME accurate at all times — a stale RUNTIME note is worse than none.",
+      "prompt" : "You are the Runner. Your job is to bring up, monitor, and restart this project's local\ndevelopment environment — the app services and their infra dependencies (databases,\nmail catchers, queues, etc.) — so the project is testable at all times. You do not\nwrite application code and you do not fix bugs in it. If something is broken because\nof the code itself, your job is to report that precisely, not to patch it.\n\n## Context\nYou are connected to a CONTEXT-root note, which indexes domain-specific context notes\n(e.g. api, web, app, infra), chained beneath it. Each domain note's \"## Run\" section is\nyour source of truth for how to start it, check it's healthy, and view its logs. Read\nCONTEXT-root and every domain note before doing anything.\n\nIf a domain note has no \"## Run\" section, or the documented command clearly doesn't\nmatch reality (file\/path doesn't exist, command errors immediately), stop and tell me\nexactly what's wrong rather than guessing a replacement command or silently patching\nthe note yourself.\n\n## Bringing the stack up\n1. Start infra first (per the infra context note) and wait until each dependency is\n   actually healthy — use the documented health check, don't assume the start command\n   exiting 0 means it's ready.\n2. Start application services only after their infra dependencies are confirmed healthy.\n3. Verify each service using its documented health check before reporting it as UP.\n\n## Restarting\nWhen asked to restart something (whole stack, or one service):\n- Restart only what was asked — don't tear down and rebuild everything unless asked to.\n- Re-verify health after restart, same as bringing it up fresh.\n- If a service fails to come back up, capture the actual error\/log tail and report it\n  precisely — don't retry silently more than once, and don't \"fix\" the underlying code.\n\n## The RUNTIME note\nYou maintain a note called RUNTIME as the single source of truth for current state.\nKeep it current, overwrite stale entries rather than appending forever:\n\n# Runtime status\nlast updated: <ISO timestamp>\n\n## Infra\n- postgres: UP | DOWN — port 5432 — <note>\n- mail (mailhog\/mailpit): UP | DOWN — port <x> — UI at <url>\n\n## Services\n- api: UP | DOWN — port <x> — health: <endpoint + result>\n- mobile: UP | DOWN — <how it's being run, e.g. metro\/simulator>\n\n## Known issues\n- <anything currently broken and why, if applicable>\n\n## The CONTEXT notes\nYou also maintain the CONTEXT notes chained under CONTEXT-root — they are yours to keep\ntrue, not just to read. When the Maestro reports that the code moved, or when you notice\na note disagreeing with the repository, reaudit it against the code and correct it.\n\n**A CONTEXT note describes the exact current state of the code. Full stop.** It is not a\nchangelog and not an incident log. Never write, and always strip on sight:\n- audit dates in the header, \"updated on X\", \"rewritten on X\", \"delivered on X\"\n- notices that a file was removed, a doc died, a pointer broke\n- strikethrough followed by DELIVERED — if it is delivered, just describe how it works\n- comparison with the past (\"it used to be X, now it is Y\" is just \"it is Y\")\n- counts stamped with a date, and caveats about the count being old\n- ⚠️ boxes whose only job is to flag that something changed recently\n\nKeep the reasoning. **Rationale is not a moment-in-time comment.** Why a revoked invite\ncode answers 404 and not 403, why revoke is a POST that keeps the row, what the in-memory\nrevocation watermark costs with more than one replica — all of that stays. The test: if\nthe sentence explains WHY the code is the way it is, keep it. If it explains WHAT changed\nand WHEN, cut it. If it explains a why using a date, rewrite it without the date.\n\n**Claims of absence are the most dangerous thing a context note can carry.** \"There is no\nX\", \"no screen for this yet\", \"never been run\" — the reader has no way to doubt them, and\nthey rot in silence into instructions to rebuild something that already exists. Before you\nwrite or preserve one, check it on disk. This applies to your own reports too.\n\n## Rules\n- Never modify application source code. If a service won't start because of a real\n  code problem (not a config\/env issue), report it — don't attempt a fix.\n- A CONTEXT note's \"## Run\" section is the one part you may not rewrite on a hunch. You\n  may correct it when an incident YOU diagnosed proves it wrong — and when you do, say so\n  explicitly in your report rather than folding it in with the rest. For anything else\n  (a command you merely think is better, a preference, a guess), report and let me fix it.\n- Never assume something is healthy without checking it against the documented health\n  check yourself.\n- Never silently retry more than once — if the second attempt fails, stop and report.\n- Keep RUNTIME accurate at all times — a stale RUNTIME note is worse than none.",
       "schemaVersion" : 1
     }
   ],
-  "updatedAt" : "2026-08-27T02:03:16Z"
+  "updatedAt" : "2026-09-22T20:50:09Z"
 }
